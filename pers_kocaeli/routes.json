@@ -1,0 +1,2288 @@
+[
+  {
+    "id": "10",
+    "label": "10 - OTOGAR-BAYINDIRLIK-UMUTTEPE",
+    "value": "10 - OTOGAR-BAYINDIRLIK-UMUTTEPE",
+    "route_code": "10"
+  },
+  {
+    "id": "70",
+    "label": "70 - AKPINAR-KURUÇEŞME-D.KIŞLA-ŞEHİR HAST-BAYINDIRLK-UMUTTEPE",
+    "value": "70 - AKPINAR-KURUÇEŞME-D.KIŞLA-ŞEHİR HAST-BAYINDIRLK-UMUTTEPE",
+    "route_code": "70"
+  },
+  {
+    "id": "80",
+    "label": "80 - KİPA AVM-PLAJ YOLU-TREN GARI-Y.KAPTAN-YUVAM AKARCA",
+    "value": "80 - KİPA AVM-PLAJ YOLU-TREN GARI-Y.KAPTAN-YUVAM AKARCA",
+    "route_code": "80"
+  },
+  {
+    "id": "90",
+    "label": "90 - BASIN SİTESİ-ŞİRİNTEPE-SANTRAL-CEZAEVİ-GIDA OSB-UMUT EVLER",
+    "value": "90 - BASIN SİTESİ-ŞİRİNTEPE-SANTRAL-CEZAEVİ-GIDA OSB-UMUT EVLER",
+    "route_code": "90"
+  },
+  {
+    "id": "103",
+    "label": "103 - 60 EVLER-SOPALI-YENİKENT-ÇINARLIKENT-ÇENESUYU-KİPA AVM",
+    "value": "103 - 60 EVLER-SOPALI-YENİKENT-ÇINARLIKENT-ÇENESUYU-KİPA AVM",
+    "route_code": "103"
+  },
+  {
+    "id": "104",
+    "label": "104 - KÖRFEZKENT-SOPALI HAST.-GÜNEY TERMİNALİ",
+    "value": "104 - KÖRFEZKENT-SOPALI HAST.-GÜNEY TERMİNALİ",
+    "route_code": "104"
+  },
+  {
+    "id": "105",
+    "label": "105 - RAHMİ SEYMEN CAMİ-ÖĞRETMENLER-HALKEVİ-SEHİR HAST.-UMUTTEPE",
+    "value": "105 - RAHMİ SEYMEN CAMİ-ÖĞRETMENLER-HALKEVİ-SEHİR HAST.-UMUTTEPE",
+    "route_code": "105"
+  },
+  {
+    "id": "144",
+    "label": "144 - 60 EVLER-DERİNCE-KAŞIK-SANAYİ-GÜNEY TERMİNALİ",
+    "value": "144 - 60 EVLER-DERİNCE-KAŞIK-SANAYİ-GÜNEY TERMİNALİ",
+    "route_code": "144"
+  },
+  {
+    "id": "145",
+    "label": "145 - 60 EVLER-DERİNCE-HALKEVİ-ŞEHİR HASTANESİ-UMUTTEPE",
+    "value": "145 - 60 EVLER-DERİNCE-HALKEVİ-ŞEHİR HASTANESİ-UMUTTEPE",
+    "route_code": "145"
+  },
+  {
+    "id": "150KS",
+    "label": "150KS - KİRAZLIYALI-KÖRFEZ-DERİNCE-İZMİT-OTOGAR-KOCAELİ STADYUMU",
+    "value": "150KS - KİRAZLIYALI-KÖRFEZ-DERİNCE-İZMİT-OTOGAR-KOCAELİ STADYUMU",
+    "route_code": "150KS"
+  },
+  {
+    "id": "170",
+    "label": "170 - KİRAZLIYALI-ALTYOL-İZMİT-OTOGAR-UMUTTEPE",
+    "value": "170 - KİRAZLIYALI-ALTYOL-İZMİT-OTOGAR-UMUTTEPE",
+    "route_code": "170"
+  },
+  {
+    "id": "190",
+    "label": "190 - YUKARI HEREKE-AŞAĞI HEREKE-KÖRFEZ-İZMİT-UMUTTEPE",
+    "value": "190 - YUKARI HEREKE-AŞAĞI HEREKE-KÖRFEZ-İZMİT-UMUTTEPE",
+    "route_code": "190"
+  },
+  {
+    "id": "200",
+    "label": "200 - İZMİT OTOGAR - DERİNCE-KÖRFEZ-DİLOVASI-GEBZE-PENDİK-KARTAL",
+    "value": "200 - İZMİT OTOGAR - DERİNCE-KÖRFEZ-DİLOVASI-GEBZE-PENDİK-KARTAL",
+    "route_code": "200"
+  },
+  {
+    "id": "201",
+    "label": "201 - ARSLANBEY-ATAKENT-RAHMİYE-İZMİT-BATI TERMİNALİ",
+    "value": "201 - ARSLANBEY-ATAKENT-RAHMİYE-İZMİT-BATI TERMİNALİ",
+    "route_code": "201"
+  },
+  {
+    "id": "202",
+    "label": "202 - ARSLANBEY-ATAKENT-DOĞAKENT-İZMİT-BATI TERMİNALİ",
+    "value": "202 - ARSLANBEY-ATAKENT-DOĞAKENT-İZMİT-BATI TERMİNALİ",
+    "route_code": "202"
+  },
+  {
+    "id": "204",
+    "label": "204 - MAŞUKİYE-DERBENT-BALABAN-SUADIYE-RAHMIYE-ARSLANBY-İZMİT",
+    "value": "204 - MAŞUKİYE-DERBENT-BALABAN-SUADIYE-RAHMIYE-ARSLANBY-İZMİT",
+    "route_code": "204"
+  },
+  {
+    "id": "205",
+    "label": "205 - BAHÇELİEVLER-ATAEVLER-İSTASYON-İZMİT-ORDU EVİ-PLAJYOLU DEPO",
+    "value": "205 - BAHÇELİEVLER-ATAEVLER-İSTASYON-İZMİT-ORDU EVİ-PLAJYOLU DEPO",
+    "route_code": "205"
+  },
+  {
+    "id": "210",
+    "label": "210 - KARTEPE-ALİKAHYA-YUVAM AKARCA-YEŞİLOVA-BAYINDIRLIK-UMUTTEPE",
+    "value": "210 - KARTEPE-ALİKAHYA-YUVAM AKARCA-YEŞİLOVA-BAYINDIRLIK-UMUTTEPE",
+    "route_code": "210"
+  },
+  {
+    "id": "220",
+    "label": "220 - SARIMEŞE MERKEZ - KÖSEKÖY-HACI HALİM-İZMİT-PLAJYOLU D.",
+    "value": "220 - SARIMEŞE MERKEZ - KÖSEKÖY-HACI HALİM-İZMİT-PLAJYOLU D.",
+    "route_code": "220"
+  },
+  {
+    "id": "240",
+    "label": "240 - PLAJYOLU GARAJ-SEKA-İZMİT-TEPETARLA-ACISU-SEKA KAMPI",
+    "value": "240 - PLAJYOLU GARAJ-SEKA-İZMİT-TEPETARLA-ACISU-SEKA KAMPI",
+    "route_code": "240"
+  },
+  {
+    "id": "260",
+    "label": "260 - MAŞUKİYE MERKEZ-ACISU-KÖSEKÖY-İZMİT-ORDU EVİ-PLAJYOLU DEP.",
+    "value": "260 - MAŞUKİYE MERKEZ-ACISU-KÖSEKÖY-İZMİT-ORDU EVİ-PLAJYOLU DEP.",
+    "route_code": "260"
+  },
+  {
+    "id": "300",
+    "label": "300 - DİLOVASI - K��RFEZ-DERİNCE - İZMİT - UMUTTEPE",
+    "value": "300 - DİLOVASI - K��RFEZ-DERİNCE - İZMİT - UMUTTEPE",
+    "route_code": "300"
+  },
+  {
+    "id": "302",
+    "label": "302 - DİLOVASI DEVLET HASTANESİ-GEBZE-FATİH DEVLET HAST.",
+    "value": "302 - DİLOVASI DEVLET HASTANESİ-GEBZE-FATİH DEVLET HAST.",
+    "route_code": "302"
+  },
+  {
+    "id": "305",
+    "label": "305 - BİLİŞİM VADİSİ-DİLİSKELESİ-KÖRFEZ-İZMİT-UMUTTEPE",
+    "value": "305 - BİLİŞİM VADİSİ-DİLİSKELESİ-KÖRFEZ-İZMİT-UMUTTEPE",
+    "route_code": "305"
+  },
+  {
+    "id": "306",
+    "label": "306 - DİLİSKELESİ-HASTANE",
+    "value": "306 - DİLİSKELESİ-HASTANE",
+    "route_code": "306"
+  },
+  {
+    "id": "310",
+    "label": "310 - DİLİSKELESİ-DİLOVASI-GEBZE-DARICA",
+    "value": "310 - DİLİSKELESİ-DİLOVASI-GEBZE-DARICA",
+    "route_code": "310"
+  },
+  {
+    "id": "320",
+    "label": "320 - ÇERKEŞLİ-ÇAĞDAŞKENT",
+    "value": "320 - ÇERKEŞLİ-ÇAĞDAŞKENT",
+    "route_code": "320"
+  },
+  {
+    "id": "404",
+    "label": "404 - BEYLİKBAĞI-MUSTAFA PAŞA CAMİ-HASKÖY SANAYİ SİTESİ",
+    "value": "404 - BEYLİKBAĞI-MUSTAFA PAŞA CAMİ-HASKÖY SANAYİ SİTESİ",
+    "route_code": "404"
+  },
+  {
+    "id": "405",
+    "label": "405 - ÖZGÜNKENT-İZMİT-UMUTTEPE",
+    "value": "405 - ÖZGÜNKENT-İZMİT-UMUTTEPE",
+    "route_code": "405"
+  },
+  {
+    "id": "406",
+    "label": "406 - İNÖNÜ-SIRASÖĞÜTLER",
+    "value": "406 - İNÖNÜ-SIRASÖĞÜTLER",
+    "route_code": "406"
+  },
+  {
+    "id": "407",
+    "label": "407 - İSTASYON-FATİH DEVLET HAST.-MUSTAFA PAŞA CAMİ-KİRAZPINAR",
+    "value": "407 - İSTASYON-FATİH DEVLET HAST.-MUSTAFA PAŞA CAMİ-KİRAZPINAR",
+    "route_code": "407"
+  },
+  {
+    "id": "408",
+    "label": "408 - ESKİHİSAR-BARIŞ MAHALLESİ-GEBZE-GENÇLİK CADDESİ",
+    "value": "408 - ESKİHİSAR-BARIŞ MAHALLESİ-GEBZE-GENÇLİK CADDESİ",
+    "route_code": "408"
+  },
+  {
+    "id": "409",
+    "label": "409 - İSTASYON-FATİH DEVLET HAST.-ANİBAL-BARIŞ MAHALLESİ",
+    "value": "409 - İSTASYON-FATİH DEVLET HAST.-ANİBAL-BARIŞ MAHALLESİ",
+    "route_code": "409"
+  },
+  {
+    "id": "410",
+    "label": "410 - KİRAZPINAR-GEBZE-DARICA-BAYRAMOĞLU",
+    "value": "410 - KİRAZPINAR-GEBZE-DARICA-BAYRAMOĞLU",
+    "route_code": "410"
+  },
+  {
+    "id": "420",
+    "label": "420 - ADALET SARAYI-MARMARAY İSTASYON-DARICA",
+    "value": "420 - ADALET SARAYI-MARMARAY İSTASYON-DARICA",
+    "route_code": "420"
+  },
+  {
+    "id": "430",
+    "label": "430 - FATİH TREN İST.-ADEM YAVUZ-BEY-GEBZE-GÜZELLER OSB",
+    "value": "430 - FATİH TREN İST.-ADEM YAVUZ-BEY-GEBZE-GÜZELLER OSB",
+    "route_code": "430"
+  },
+  {
+    "id": "440",
+    "label": "440 - YAVUZ SELİM-GEBZE-FARABİ DH.-GEBZE TEKNİK",
+    "value": "440 - YAVUZ SELİM-GEBZE-FARABİ DH.-GEBZE TEKNİK",
+    "route_code": "440"
+  },
+  {
+    "id": "480",
+    "label": "480 - KİRAZPINAR-BEYLİKBAĞI-ÇAYIROVA-ÖZGÜNKENT",
+    "value": "480 - KİRAZPINAR-BEYLİKBAĞI-ÇAYIROVA-ÖZGÜNKENT",
+    "route_code": "480"
+  },
+  {
+    "id": "490",
+    "label": "490 - MUALLİMKÖY - GEBZE-YENİ MAHALLE - GTÜ",
+    "value": "490 - MUALLİMKÖY - GEBZE-YENİ MAHALLE - GTÜ",
+    "route_code": "490"
+  },
+  {
+    "id": "500",
+    "label": "500 - HEREKE - DİLOVASI - GEBZE-İSTASYON - DARICA",
+    "value": "500 - HEREKE - DİLOVASI - GEBZE-İSTASYON - DARICA",
+    "route_code": "500"
+  },
+  {
+    "id": "501",
+    "label": "501 - B.OĞLU - DARICA-İSTASYON - GEBZE",
+    "value": "501 - B.OĞLU - DARICA-İSTASYON - GEBZE",
+    "route_code": "501"
+  },
+  {
+    "id": "502",
+    "label": "502 - KENTÖNÜ - DARICA-FARABİ E.A.H. - GEBZE",
+    "value": "502 - KENTÖNÜ - DARICA-FARABİ E.A.H. - GEBZE",
+    "route_code": "502"
+  },
+  {
+    "id": "503",
+    "label": "503 - KENTÖNÜ - NENE HATUN-İSTASYON - GEBZE",
+    "value": "503 - KENTÖNÜ - NENE HATUN-İSTASYON - GEBZE",
+    "route_code": "503"
+  },
+  {
+    "id": "504",
+    "label": "504 - KENT KENTÖNÜ-GEBZE TEKNİK ÜNİ.-S.SÖĞÜTLER-FARABİ DH-DARICA",
+    "value": "504 - KENT KENTÖNÜ-GEBZE TEKNİK ÜNİ.-S.SÖĞÜTLER-FARABİ DH-DARICA",
+    "route_code": "504"
+  },
+  {
+    "id": "506",
+    "label": "506 - DARICA - MEZBAHANE -TÜBİTAK-GEBZE OTOGAR",
+    "value": "506 - DARICA - MEZBAHANE -TÜBİTAK-GEBZE OTOGAR",
+    "route_code": "506"
+  },
+  {
+    "id": "509",
+    "label": "509 - BAYRAMOĞLU-İMKB LİS.-ATATÜRK CAD.-GEBZE",
+    "value": "509 - BAYRAMOĞLU-İMKB LİS.-ATATÜRK CAD.-GEBZE",
+    "route_code": "509"
+  },
+  {
+    "id": "510",
+    "label": "510 - KENTÖNÜ-GEBZE-OSB",
+    "value": "510 - KENTÖNÜ-GEBZE-OSB",
+    "route_code": "510"
+  },
+  {
+    "id": "530",
+    "label": "530 - DARICA-MARMARAY İSTASYON-İZMİT-UMUTTEPE",
+    "value": "530 - DARICA-MARMARAY İSTASYON-İZMİT-UMUTTEPE",
+    "route_code": "530"
+  },
+  {
+    "id": "550",
+    "label": "550 - ÖZGÜNKENT-ŞEKERPINAR-YENİ MAHALLE-İSTASYON-DARICA",
+    "value": "550 - ÖZGÜNKENT-ŞEKERPINAR-YENİ MAHALLE-İSTASYON-DARICA",
+    "route_code": "550"
+  },
+  {
+    "id": "560",
+    "label": "560 - FATİH TREN İSTASYONU-GEBZE OTOGAR",
+    "value": "560 - FATİH TREN İSTASYONU-GEBZE OTOGAR",
+    "route_code": "560"
+  },
+  {
+    "id": "570",
+    "label": "570 - K.B.B. GEBZE GARAJ - ÇAYIROVA-GEBZE - BARIŞ MH.",
+    "value": "570 - K.B.B. GEBZE GARAJ - ÇAYIROVA-GEBZE - BARIŞ MH.",
+    "route_code": "570"
+  },
+  {
+    "id": "600",
+    "label": "600 - DOĞANTEPE-KULLAR-İZMİT-UMUTTEPE(YENİ YOL)",
+    "value": "600 - DOĞANTEPE-KULLAR-İZMİT-UMUTTEPE(YENİ YOL)",
+    "route_code": "600"
+  },
+  {
+    "id": "630",
+    "label": "630 - YUVACIK MERKEZ-AYDINKENT-İZMİT-UMUTTEPE",
+    "value": "630 - YUVACIK MERKEZ-AYDINKENT-İZMİT-UMUTTEPE",
+    "route_code": "630"
+  },
+  {
+    "id": "640",
+    "label": "640 - DÖNGEL-ALTINKENT-SANAYİ-İZMİT-UMUTTEPE",
+    "value": "640 - DÖNGEL-ALTINKENT-SANAYİ-İZMİT-UMUTTEPE",
+    "route_code": "640"
+  },
+  {
+    "id": "650",
+    "label": "650 - KİRAZLIKENT-YENİKÖY-İZMİT-UMUTTEPE",
+    "value": "650 - KİRAZLIKENT-YENİKÖY-İZMİT-UMUTTEPE",
+    "route_code": "650"
+  },
+  {
+    "id": "670",
+    "label": "670 - D.DERE-GÖLCÜK-DEVLET HAST.-HİSAREYN-YAZLIK-YENİKÖY-HAVUZ",
+    "value": "670 - D.DERE-GÖLCÜK-DEVLET HAST.-HİSAREYN-YAZLIK-YENİKÖY-HAVUZ",
+    "route_code": "670"
+  },
+  {
+    "id": "680",
+    "label": "680 - İHSANİYE-SEYMEN-İZMİT-PLAJYOLU DEPOLAMA (ESKİ YOL)",
+    "value": "680 - İHSANİYE-SEYMEN-İZMİT-PLAJYOLU DEPOLAMA (ESKİ YOL)",
+    "route_code": "680"
+  },
+  {
+    "id": "701",
+    "label": "701 - GÖLCÜK-İZMİT-BATI TERMİNALİ (ESKİ YOL)",
+    "value": "701 - GÖLCÜK-İZMİT-BATI TERMİNALİ (ESKİ YOL)",
+    "route_code": "701"
+  },
+  {
+    "id": "702",
+    "label": "702 - GÖLCÜK-İZMİT OTOGAR-BATI TERMİNALİ (YENİ YOL)",
+    "value": "702 - GÖLCÜK-İZMİT OTOGAR-BATI TERMİNALİ (YENİ YOL)",
+    "route_code": "702"
+  },
+  {
+    "id": "710",
+    "label": "710 - DEĞİRMENDERE-KONUTLAR-D.HAST.-ŞİRİNKÖY-İZMİT-PLAJ YOLU",
+    "value": "710 - DEĞİRMENDERE-KONUTLAR-D.HAST.-ŞİRİNKÖY-İZMİT-PLAJ YOLU",
+    "route_code": "710"
+  },
+  {
+    "id": "740",
+    "label": "740 - ULAŞLI-HALIDERE-DEĞİRMENDERE-GÖLCÜK-İZMİT-PLAJYOLU-ESKİ YOL",
+    "value": "740 - ULAŞLI-HALIDERE-DEĞİRMENDERE-GÖLCÜK-İZMİT-PLAJYOLU-ESKİ YOL",
+    "route_code": "740"
+  },
+  {
+    "id": "750",
+    "label": "750 - KARAMÜRSEL-GÖLCÜK-İZMİT-UMUTTEPE (ESKİ YOL)",
+    "value": "750 - KARAMÜRSEL-GÖLCÜK-İZMİT-UMUTTEPE (ESKİ YOL)",
+    "route_code": "750"
+  },
+  {
+    "id": "750KS",
+    "label": "750KS - KARAMÜRSEL-ULAŞLI-HALİDERE-GÖLCÜK-BAŞİSKELE-KOCAELİ STAD",
+    "value": "750KS - KARAMÜRSEL-ULAŞLI-HALİDERE-GÖLCÜK-BAŞİSKELE-KOCAELİ STAD",
+    "route_code": "750KS"
+  },
+  {
+    "id": "800",
+    "label": "800 - PLAJYOLU DEPO-İZMİT-ÇAYIRKÖY-S.HOCALA-F TİPİ-KANDIRA OTOGAR",
+    "value": "800 - PLAJYOLU DEPO-İZMİT-ÇAYIRKÖY-S.HOCALA-F TİPİ-KANDIRA OTOGAR",
+    "route_code": "800"
+  },
+  {
+    "id": "800CK",
+    "label": "800CK - İZMİT OTOGAR-KERPE-KEFKEN-CEBECİ",
+    "value": "800CK - İZMİT OTOGAR-KERPE-KEFKEN-CEBECİ",
+    "route_code": "800CK"
+  },
+  {
+    "id": "806",
+    "label": "806 - KANDIRA OTOGAR-AKBAL-YENİÇAM-KAYMAZ-F TİPİ-İZMİT-PLAJYOLU",
+    "value": "806 - KANDIRA OTOGAR-AKBAL-YENİÇAM-KAYMAZ-F TİPİ-İZMİT-PLAJYOLU",
+    "route_code": "806"
+  },
+  {
+    "id": "710S",
+    "label": "710S - DEĞİRMENDERE-SARAYLI-DÜZAĞAÇ-SİVRİTEPE-İZMİT",
+    "value": "710S - DEĞİRMENDERE-SARAYLI-DÜZAĞAÇ-SİVRİTEPE-İZMİT",
+    "route_code": "710S"
+  },
+  {
+    "id": "700",
+    "label": "700 - GÖLCÜK-K.MÜRSEL-ALTINOVA-GEBZE-ÇAYIROVA TREN İSTASYONU",
+    "value": "700 - GÖLCÜK-K.MÜRSEL-ALTINOVA-GEBZE-ÇAYIROVA TREN İSTASYONU",
+    "route_code": "700"
+  },
+  {
+    "id": "102",
+    "label": "102 - MERSİNCİK-YENİKENT-SOPALI",
+    "value": "102 - MERSİNCİK-YENİKENT-SOPALI",
+    "route_code": "102"
+  },
+  {
+    "id": "KM01",
+    "label": "KM01 - CEZAEVİ-GONCAAYDIN-ÜĞÜMCE-BEYCE-DALCA-ÇAKIRCAALİ-KANDIRA",
+    "value": "KM01 - CEZAEVİ-GONCAAYDIN-ÜĞÜMCE-BEYCE-DALCA-ÇAKIRCAALİ-KANDIRA",
+    "route_code": "KM01"
+  },
+  {
+    "id": "KM03",
+    "label": "KM03 - SARNIÇLAR- KATÇALI MEVKİ-YUSUFÇA-SÜLLÜ SAPAĞI- KANDIRA",
+    "value": "KM03 - SARNIÇLAR- KATÇALI MEVKİ-YUSUFÇA-SÜLLÜ SAPAĞI- KANDIRA",
+    "route_code": "KM03"
+  },
+  {
+    "id": "KM04",
+    "label": "KM04 - CEZAEVİ- KOCAKAYMAS-ELMACIK-İNCECİK-PELİTPINARI-KANDIRA",
+    "value": "KM04 - CEZAEVİ- KOCAKAYMAS-ELMACIK-İNCECİK-PELİTPINARI-KANDIRA",
+    "route_code": "KM04"
+  },
+  {
+    "id": "KM05",
+    "label": "KM05 - KANATLAR-BALCI-ESENTEPE-AKBAL-KANDIRA",
+    "value": "KM05 - KANATLAR-BALCI-ESENTEPE-AKBAL-KANDIRA",
+    "route_code": "KM05"
+  },
+  {
+    "id": "KM06",
+    "label": "KM06 - CEZAEVİ-AKÇAKESE-PİRCELER-LOKMANLI -BALCI-AKBAL-KANDIRA",
+    "value": "KM06 - CEZAEVİ-AKÇAKESE-PİRCELER-LOKMANLI -BALCI-AKBAL-KANDIRA",
+    "route_code": "KM06"
+  },
+  {
+    "id": "KM07",
+    "label": "KM07 - KANDIRA-HÜDAVERDİLER-SEPETÇİ-DÖNGELLİ-FERİZLİ-SÜLLÜ-KANDIRA",
+    "value": "KM07 - KANDIRA-HÜDAVERDİLER-SEPETÇİ-DÖNGELLİ-FERİZLİ-SÜLLÜ-KANDIRA",
+    "route_code": "KM07"
+  },
+  {
+    "id": "KM10",
+    "label": "KM10 - KANDIRA-BABAKÖY-SARISU-DOĞANCILI-KARABIYIKLAR",
+    "value": "KM10 - KANDIRA-BABAKÖY-SARISU-DOĞANCILI-KARABIYIKLAR",
+    "route_code": "KM10"
+  },
+  {
+    "id": "KM20",
+    "label": "KM20 - EŞMEAHMEDİYE-AVLUBURUN-İZMİT",
+    "value": "KM20 - EŞMEAHMEDİYE-AVLUBURUN-İZMİT",
+    "route_code": "KM20"
+  },
+  {
+    "id": "KM30",
+    "label": "KM30 - İSHAKÇILAR-KAŞIKÇI-TOYLAR-İZMİT",
+    "value": "KM30 - İSHAKÇILAR-KAŞIKÇI-TOYLAR-İZMİT",
+    "route_code": "KM30"
+  },
+  {
+    "id": "KM40",
+    "label": "KM40 - SULTANİYE-BALÖREN-KOZLUCA-DAĞKÖY- İZMİT",
+    "value": "KM40 - SULTANİYE-BALÖREN-KOZLUCA-DAĞKÖY- İZMİT",
+    "route_code": "KM40"
+  },
+  {
+    "id": "KM50",
+    "label": "KM50 - BÖĞÜRGEN-SÜVERLER-ÇULCULAR-SEPETÇİ-İZMİT",
+    "value": "KM50 - BÖĞÜRGEN-SÜVERLER-ÇULCULAR-SEPETÇİ-İZMİT",
+    "route_code": "KM50"
+  },
+  {
+    "id": "KM60",
+    "label": "KM60 - ELBİZLİ-DURAKLI-HATİPLER-GEBZE-FATİH D.H.-TATLIKUYU",
+    "value": "KM60 - ELBİZLİ-DURAKLI-HATİPLER-GEBZE-FATİH D.H.-TATLIKUYU",
+    "route_code": "KM60"
+  },
+  {
+    "id": "KM02",
+    "label": "KM02 - KEFKEN-YAYLAPINAR-KOÇUNÖYÜ-DURAKLI-ÖZBEY-DURAÇALI-KANDIRA",
+    "value": "KM02 - KEFKEN-YAYLAPINAR-KOÇUNÖYÜ-DURAKLI-ÖZBEY-DURAÇALI-KANDIRA",
+    "route_code": "KM02"
+  },
+  {
+    "id": "650S",
+    "label": "650S - M.K.E.-SEPETLİPINAR-YENİKÖY-İZMİT",
+    "value": "650S - M.K.E.-SEPETLİPINAR-YENİKÖY-İZMİT",
+    "route_code": "650S"
+  },
+  {
+    "id": "65T",
+    "label": "65T - BATI TERMİNALİ–ORDUEVİ–D-100-SERDAR BAYIRI-EĞİTİM KAMPÜ",
+    "value": "65T - BATI TERMİNALİ–ORDUEVİ–D-100-SERDAR BAYIRI-EĞİTİM KAMPÜ",
+    "route_code": "65T"
+  },
+  {
+    "id": "801",
+    "label": "801 - İZMİT OTOGAR-KANDIRA OTOGAR",
+    "value": "801 - İZMİT OTOGAR-KANDIRA OTOGAR",
+    "route_code": "801"
+  },
+  {
+    "id": "510B",
+    "label": "510B - KENTÖNÜ-GOSB",
+    "value": "510B - KENTÖNÜ-GOSB",
+    "route_code": "510B"
+  },
+  {
+    "id": "520",
+    "label": "520 - SIRASÖĞÜTLER -DARICA-FARABİ E.A.H. - GEBZE",
+    "value": "520 - SIRASÖĞÜTLER -DARICA-FARABİ E.A.H. - GEBZE",
+    "route_code": "520"
+  },
+  {
+    "id": "550B",
+    "label": "550B - ÖZGÜNKENT-DARICA",
+    "value": "550B - ÖZGÜNKENT-DARICA",
+    "route_code": "550B"
+  },
+  {
+    "id": "280",
+    "label": "280 - İZMİT OTOGAR-EŞME-SAKARYA ÜNİVERSİTESİ",
+    "value": "280 - İZMİT OTOGAR-EŞME-SAKARYA ÜNİVERSİTESİ",
+    "route_code": "280"
+  },
+  {
+    "id": "590",
+    "label": "590 - TOSB-Ş.PINAR-ÇAYIROVA-GEBZE OTOGAR",
+    "value": "590 - TOSB-Ş.PINAR-ÇAYIROVA-GEBZE OTOGAR",
+    "route_code": "590"
+  },
+  {
+    "id": "100",
+    "label": "100 - YENİKENT-SOPALI-TREN GARI-YEŞİLOVA-BAYINDIRLIK",
+    "value": "100 - YENİKENT-SOPALI-TREN GARI-YEŞİLOVA-BAYINDIRLIK",
+    "route_code": "100"
+  },
+  {
+    "id": "507",
+    "label": "507 - İSTASYON - NENE HATUN-DARICA",
+    "value": "507 - İSTASYON - NENE HATUN-DARICA",
+    "route_code": "507"
+  },
+  {
+    "id": "KM80",
+    "label": "KM80 - KANDIRA-KURTYERİ-KEFKEN--YAYLAPINARI-AKÇABEYLİ-KARAAĞAÇ",
+    "value": "KM80 - KANDIRA-KURTYERİ-KEFKEN--YAYLAPINARI-AKÇABEYLİ-KARAAĞAÇ",
+    "route_code": "KM80"
+  },
+  {
+    "id": "320H",
+    "label": "320H - ÇERKEŞLİ-SIRASÖĞÜTLER",
+    "value": "320H - ÇERKEŞLİ-SIRASÖĞÜTLER",
+    "route_code": "320H"
+  },
+  {
+    "id": "20",
+    "label": "20 - BATI TERMİNALİ-GÜLTEPE-UMUTTEPE",
+    "value": "20 - BATI TERMİNALİ-GÜLTEPE-UMUTTEPE",
+    "route_code": "20"
+  },
+  {
+    "id": "400",
+    "label": "400 - İZMİT OTOGAR-MARMARAY-DARICA",
+    "value": "400 - İZMİT OTOGAR-MARMARAY-DARICA",
+    "route_code": "400"
+  },
+  {
+    "id": "580",
+    "label": "580 - ÖZGÜNKENT-Ş.PINAR-MUTLUKENT-GEBZE-BARIŞ MAH.",
+    "value": "580 - ÖZGÜNKENT-Ş.PINAR-MUTLUKENT-GEBZE-BARIŞ MAH.",
+    "route_code": "580"
+  },
+  {
+    "id": "480A",
+    "label": "480A - KİRAZPINAR-MUTLUKENT - SGK",
+    "value": "480A - KİRAZPINAR-MUTLUKENT - SGK",
+    "route_code": "480A"
+  },
+  {
+    "id": "501B",
+    "label": "501B - BAYRAMOĞLU-GEBZE",
+    "value": "501B - BAYRAMOĞLU-GEBZE",
+    "route_code": "501B"
+  },
+  {
+    "id": "501E",
+    "label": "501E - BAYRAMOĞLU - EREN SİTESİ-DARICA - İSTASYON - GEBZE",
+    "value": "501E - BAYRAMOĞLU - EREN SİTESİ-DARICA - İSTASYON - GEBZE",
+    "route_code": "501E"
+  },
+  {
+    "id": "502S",
+    "label": "502S - KENTÖNÜ - DARICA SAHİL-FARABİ E.A.H. - GEBZE",
+    "value": "502S - KENTÖNÜ - DARICA SAHİL-FARABİ E.A.H. - GEBZE",
+    "route_code": "502S"
+  },
+  {
+    "id": "504B",
+    "label": "504B - BAYRAMOĞLU-DARICA",
+    "value": "504B - BAYRAMOĞLU-DARICA",
+    "route_code": "504B"
+  },
+  {
+    "id": "SH10",
+    "label": "SH10 - D.DERE-GÖLCÜK KALICI KONUTLAR-K.KÖPRÜ-YAZLIK-ŞEHİR HASTANESİ",
+    "value": "SH10 - D.DERE-GÖLCÜK KALICI KONUTLAR-K.KÖPRÜ-YAZLIK-ŞEHİR HASTANESİ",
+    "route_code": "SH10"
+  },
+  {
+    "id": "SH20",
+    "label": "SH20 - KBB GEBZE GARAJ - GEBZE-ŞEHİR HASTANESİ",
+    "value": "SH20 - KBB GEBZE GARAJ - GEBZE-ŞEHİR HASTANESİ",
+    "route_code": "SH20"
+  },
+  {
+    "id": "501H",
+    "label": "501H - GESİ BAĞLARI DEPOLAMA ALANI-GEBZE MARMARAY",
+    "value": "501H - GESİ BAĞLARI DEPOLAMA ALANI-GEBZE MARMARAY",
+    "route_code": "501H"
+  },
+  {
+    "id": "11",
+    "label": "11 - DOĞUKIŞLA-VALİLİK-ERENLER-İZMİ KENT",
+    "value": "11 - DOĞUKIŞLA-VALİLİK-ERENLER-İZMİ KENT",
+    "route_code": "11"
+  },
+  {
+    "id": "13",
+    "label": "13 - ALİKAHYA-UMUTTEPE",
+    "value": "13 - ALİKAHYA-UMUTTEPE",
+    "route_code": "13"
+  },
+  {
+    "id": "14",
+    "label": "14 - A KAPISI-BESYO-İLAHİYAT-SAĞLIK FAKÜLTESİ",
+    "value": "14 - A KAPISI-BESYO-İLAHİYAT-SAĞLIK FAKÜLTESİ",
+    "route_code": "14"
+  },
+  {
+    "id": "15KS",
+    "label": "15KS - OTOGAR-KOCAELİ STADYUM",
+    "value": "15KS - OTOGAR-KOCAELİ STADYUM",
+    "route_code": "15KS"
+  },
+  {
+    "id": "51",
+    "label": "51 - BATI TERMİNALİ-TOPÇULAR-TUANA EVLERİ",
+    "value": "51 - BATI TERMİNALİ-TOPÇULAR-TUANA EVLERİ",
+    "route_code": "51"
+  },
+  {
+    "id": "61",
+    "label": "61 - KULFALLI-AKPINAR-HATİPKÖY-KURUÇEŞME TRAMVAY",
+    "value": "61 - KULFALLI-AKPINAR-HATİPKÖY-KURUÇEŞME TRAMVAY",
+    "route_code": "61"
+  },
+  {
+    "id": "71",
+    "label": "71 - BATI TERMİNALİ-HALKEVİ-DEVLET HAST.-B.DERE-TAVŞANTEPE",
+    "value": "71 - BATI TERMİNALİ-HALKEVİ-DEVLET HAST.-B.DERE-TAVŞANTEPE",
+    "route_code": "71"
+  },
+  {
+    "id": "81",
+    "label": "81 - BAYINDIRLIK-G.DOĞDU-ŞEHİR HAST-CUMHURİYET PARKI-TREN GARI",
+    "value": "81 - BAYINDIRLIK-G.DOĞDU-ŞEHİR HAST-CUMHURİYET PARKI-TREN GARI",
+    "route_code": "81"
+  },
+  {
+    "id": "111",
+    "label": "111 - HARMANTARLA-EMNİYET-CUMHURİYET PARKI",
+    "value": "111 - HARMANTARLA-EMNİYET-CUMHURİYET PARKI",
+    "route_code": "111"
+  },
+  {
+    "id": "114",
+    "label": "114 - KÖRFEZKENT-KAŞKAL-DERİNCE-İZMİT-SANAYİ-GÜNEY TERMİNALİ",
+    "value": "114 - KÖRFEZKENT-KAŞKAL-DERİNCE-İZMİT-SANAYİ-GÜNEY TERMİNALİ",
+    "route_code": "114"
+  },
+  {
+    "id": "115",
+    "label": "115 - KÖRFEZKENT-SOPALI-DERİNCE-İZMİT-ÜÇYOL-UMUTTEPE",
+    "value": "115 - KÖRFEZKENT-SOPALI-DERİNCE-İZMİT-ÜÇYOL-UMUTTEPE",
+    "route_code": "115"
+  },
+  {
+    "id": "118",
+    "label": "118 - ÖĞRETMENLER-DERİNCE-HALKEVİ-SANTRAL-B.DERE-OTOGAR-Y.KAPTAN",
+    "value": "118 - ÖĞRETMENLER-DERİNCE-HALKEVİ-SANTRAL-B.DERE-OTOGAR-Y.KAPTAN",
+    "route_code": "118"
+  },
+  {
+    "id": "124",
+    "label": "124 - KÖRFEZKENT-SOPALI-HALKEVİ-SANAYİ-GÜNEY TERMİNALİ",
+    "value": "124 - KÖRFEZKENT-SOPALI-HALKEVİ-SANAYİ-GÜNEY TERMİNALİ",
+    "route_code": "124"
+  },
+  {
+    "id": "126",
+    "label": "126 - KÖRFEZKENT-SOPALI-DERİNCE-HALK EVİ-D.KIŞLA-Y.KAPTAN",
+    "value": "126 - KÖRFEZKENT-SOPALI-DERİNCE-HALK EVİ-D.KIŞLA-Y.KAPTAN",
+    "route_code": "126"
+  },
+  {
+    "id": "133",
+    "label": "133 - YENİKENT-SOPALI HAST.-GÜLTEPE-ÜÇTEPELER-UMUTTEPE",
+    "value": "133 - YENİKENT-SOPALI HAST.-GÜLTEPE-ÜÇTEPELER-UMUTTEPE",
+    "route_code": "133"
+  },
+  {
+    "id": "135",
+    "label": "135 - KÖRFEZKENT-YENİKENT-KASKAL-DERİNCE-SANTRAL-YUVAM AKARCA",
+    "value": "135 - KÖRFEZKENT-YENİKENT-KASKAL-DERİNCE-SANTRAL-YUVAM AKARCA",
+    "route_code": "135"
+  },
+  {
+    "id": "138",
+    "label": "138 - YENİKENT-KAŞKAL-DERİNCE-SANTRAL-BEKİRDERE-OTOGAR",
+    "value": "138 - YENİKENT-KAŞKAL-DERİNCE-SANTRAL-BEKİRDERE-OTOGAR",
+    "route_code": "138"
+  },
+  {
+    "id": "147",
+    "label": "147 - HARMANTARLA-ÇINARLI-SANTRAL-BEKİRDERE-KAYMAKAMLIK",
+    "value": "147 - HARMANTARLA-ÇINARLI-SANTRAL-BEKİRDERE-KAYMAKAMLIK",
+    "route_code": "147"
+  },
+  {
+    "id": "151",
+    "label": "151 - TÜTÜNÇİFTLİK SAHİL-95 EVLER-SEKA-İZMİT-OTOGAR",
+    "value": "151 - TÜTÜNÇİFTLİK SAHİL-95 EVLER-SEKA-İZMİT-OTOGAR",
+    "route_code": "151"
+  },
+  {
+    "id": "152",
+    "label": "152 - KİRAZLIYALI-YARIMCA (ALT YOL)-TÜTÜNÇİFTLİK-İZMİT-OTOGAR",
+    "value": "152 - KİRAZLIYALI-YARIMCA (ALT YOL)-TÜTÜNÇİFTLİK-İZMİT-OTOGAR",
+    "route_code": "152"
+  },
+  {
+    "id": "154",
+    "label": "154 - KİRAZLIYALI-YAVUZ SELİM-KÖRFEZ ESENTEPE-İZMİT-OTOGAR",
+    "value": "154 - KİRAZLIYALI-YAVUZ SELİM-KÖRFEZ ESENTEPE-İZMİT-OTOGAR",
+    "route_code": "154"
+  },
+  {
+    "id": "161",
+    "label": "161 - SERAMİK-ŞEHİRİÇİ-KÖRFEZKENT-DERİNCE EĞ.AR.HAST.-95 EVLER",
+    "value": "161 - SERAMİK-ŞEHİRİÇİ-KÖRFEZKENT-DERİNCE EĞ.AR.HAST.-95 EVLER",
+    "route_code": "161"
+  },
+  {
+    "id": "163",
+    "label": "163 - İLİMTEPE-TÜTÜNÇİFTLİK-95 EVLER-İZMİT-OTOGAR",
+    "value": "163 - İLİMTEPE-TÜTÜNÇİFTLİK-95 EVLER-İZMİT-OTOGAR",
+    "route_code": "163"
+  },
+  {
+    "id": "169",
+    "label": "169 - İLİMTEPE-YAVUZ SELİM-TÜTÜNÇİFTLİK",
+    "value": "169 - İLİMTEPE-YAVUZ SELİM-TÜTÜNÇİFTLİK",
+    "route_code": "169"
+  },
+  {
+    "id": "175",
+    "label": "175 - KİRAZLIYALI-ÇAMLITEPE-İZMİT-OTOGAR-UMUTTEPE",
+    "value": "175 - KİRAZLIYALI-ÇAMLITEPE-İZMİT-OTOGAR-UMUTTEPE",
+    "route_code": "175"
+  },
+  {
+    "id": "192",
+    "label": "192 - HEREKE-TAVŞANCIL KAYAPINAR",
+    "value": "192 - HEREKE-TAVŞANCIL KAYAPINAR",
+    "route_code": "192"
+  },
+  {
+    "id": "211",
+    "label": "211 - UZUNÇİFTLİK M.Y.O-EMEKEVLER-İZMİT-BATI TERMİNALİ",
+    "value": "211 - UZUNÇİFTLİK M.Y.O-EMEKEVLER-İZMİT-BATI TERMİNALİ",
+    "route_code": "211"
+  },
+  {
+    "id": "212",
+    "label": "212 - BAHÇELİEVLER-EMEK EVLER-İSTASYON-İZMİT-BATI TERMİNALİ",
+    "value": "212 - BAHÇELİEVLER-EMEK EVLER-İSTASYON-İZMİT-BATI TERMİNALİ",
+    "route_code": "212"
+  },
+  {
+    "id": "214",
+    "label": "214 - KARTEPE KAYMAKAMLIK-İSTASYON-İZMİT-BATI TERMİNALİ",
+    "value": "214 - KARTEPE KAYMAKAMLIK-İSTASYON-İZMİT-BATI TERMİNALİ",
+    "route_code": "214"
+  },
+  {
+    "id": "215",
+    "label": "215 - KÖSEKÖY-HACIHALİM-İZMİT-BATI TERMİNALİ",
+    "value": "215 - KÖSEKÖY-HACIHALİM-İZMİT-BATI TERMİNALİ",
+    "route_code": "215"
+  },
+  {
+    "id": "216",
+    "label": "216 - UZUNBEY-ERTUĞRUL G.M.-BEŞEVLER-VİLLAM-İZMİT -BATI TERMİNALİ",
+    "value": "216 - UZUNBEY-ERTUĞRUL G.M.-BEŞEVLER-VİLLAM-İZMİT -BATI TERMİNALİ",
+    "route_code": "216"
+  },
+  {
+    "id": "218",
+    "label": "218 - KARTEPE KAYMAKAMLIK-SARIMEŞE-EMEKEVLER-İZMİT-BATI TERMİNALİ",
+    "value": "218 - KARTEPE KAYMAKAMLIK-SARIMEŞE-EMEKEVLER-İZMİT-BATI TERMİNALİ",
+    "route_code": "218"
+  },
+  {
+    "id": "251",
+    "label": "251 - SUADİYE-ÇEPNİ-İZMİT-BATI TERMİNALİ",
+    "value": "251 - SUADİYE-ÇEPNİ-İZMİT-BATI TERMİNALİ",
+    "route_code": "251"
+  },
+  {
+    "id": "261",
+    "label": "261 - MAŞUKİYE-BEŞEVLER-ACISU-TEPETARLA-İZMİT-BATI TERMİNALİ",
+    "value": "261 - MAŞUKİYE-BEŞEVLER-ACISU-TEPETARLA-İZMİT-BATI TERMİNALİ",
+    "route_code": "261"
+  },
+  {
+    "id": "281",
+    "label": "281 - UZUNTARLA-ORMANYA-İBRİKDERE-CENGİZ TOPEL-İZMİT-BATI TERMİN",
+    "value": "281 - UZUNTARLA-ORMANYA-İBRİKDERE-CENGİZ TOPEL-İZMİT-BATI TERMİN",
+    "route_code": "281"
+  },
+  {
+    "id": "315",
+    "label": "315 - TAVŞANCIL-DİLOVASI-GEBZE-DARICA",
+    "value": "315 - TAVŞANCIL-DİLOVASI-GEBZE-DARICA",
+    "route_code": "315"
+  },
+  {
+    "id": "411",
+    "label": "411 - İSTASYON-FATİH D.H.-MUSTAFA PAŞA CAMİ-KİRAZPINAR",
+    "value": "411 - İSTASYON-FATİH D.H.-MUSTAFA PAŞA CAMİ-KİRAZPINAR",
+    "route_code": "411"
+  },
+  {
+    "id": "412",
+    "label": "412 - BEYLİKBAĞI-GEBZE-ADALET SARAYI-MUTLUKENT-SGK",
+    "value": "412 - BEYLİKBAĞI-GEBZE-ADALET SARAYI-MUTLUKENT-SGK",
+    "route_code": "412"
+  },
+  {
+    "id": "413",
+    "label": "413 - BEYLİKBAĞI-FATİH DEVLET HAST.-GEBZE-OTOGAR-M.PAŞA",
+    "value": "413 - BEYLİKBAĞI-FATİH DEVLET HAST.-GEBZE-OTOGAR-M.PAŞA",
+    "route_code": "413"
+  },
+  {
+    "id": "414",
+    "label": "414 - MİMAR SİNAN-FENİŞ-FATİH DH.-MUSTAFA PAŞA CAMİ",
+    "value": "414 - MİMAR SİNAN-FENİŞ-FATİH DH.-MUSTAFA PAŞA CAMİ",
+    "route_code": "414"
+  },
+  {
+    "id": "415",
+    "label": "415 - KBB GRJ-ADLİYE-M.SİNAN-M.PAŞA-FARABİ HAST.-İSTASYON-DUDAYEV",
+    "value": "415 - KBB GRJ-ADLİYE-M.SİNAN-M.PAŞA-FARABİ HAST.-İSTASYON-DUDAYEV",
+    "route_code": "415"
+  },
+  {
+    "id": "418",
+    "label": "418 - İSTASYON-FATİH DEVLET HAST.-MUSTAFA PAŞA CAMİ-MUTLUKENT",
+    "value": "418 - İSTASYON-FATİH DEVLET HAST.-MUSTAFA PAŞA CAMİ-MUTLUKENT",
+    "route_code": "418"
+  },
+  {
+    "id": "419",
+    "label": "419 - İSTASYON-FATİH DEVLET HAST.-MUSTAFA PAŞA CAMİ-MEVLANA PARK",
+    "value": "419 - İSTASYON-FATİH DEVLET HAST.-MUSTAFA PAŞA CAMİ-MEVLANA PARK",
+    "route_code": "419"
+  },
+  {
+    "id": "515",
+    "label": "515 - ÇAYIROVA MARMARAY-DARICA-İSTASYON-GEBZE-TOSB",
+    "value": "515 - ÇAYIROVA MARMARAY-DARICA-İSTASYON-GEBZE-TOSB",
+    "route_code": "515"
+  },
+  {
+    "id": "611",
+    "label": "611 - MYO-MAHMUTPAŞA CAMİ-SANAYİ-İZMİT-BATI TERMİNALİ",
+    "value": "611 - MYO-MAHMUTPAŞA CAMİ-SANAYİ-İZMİT-BATI TERMİNALİ",
+    "route_code": "611"
+  },
+  {
+    "id": "612",
+    "label": "612 - KULLAR MERKEZ-YAYLACIK-VEZİRÇİFTLİĞİ-İZMİT-BATI TERMİ",
+    "value": "612 - KULLAR MERKEZ-YAYLACIK-VEZİRÇİFTLİĞİ-İZMİT-BATI TERMİ",
+    "route_code": "612"
+  },
+  {
+    "id": "613",
+    "label": "613 - KULLAR MERKEZ-VEZİRÇİFTLİĞİ-ORDULULAR-İZMİT-BATI TERMİNALİ",
+    "value": "613 - KULLAR MERKEZ-VEZİRÇİFTLİĞİ-ORDULULAR-İZMİT-BATI TERMİNALİ",
+    "route_code": "613"
+  },
+  {
+    "id": "614",
+    "label": "614 - DOĞANTEPE-KULLAR-İZMİT-BATI TERMİNAL (YENİ YOL)",
+    "value": "614 - DOĞANTEPE-KULLAR-İZMİT-BATI TERMİNAL (YENİ YOL)",
+    "route_code": "614"
+  },
+  {
+    "id": "615",
+    "label": "615 - KULLAR MERKEZ-KULLAR ARITMA-İZMİT-BATI TERMİNALİ",
+    "value": "615 - KULLAR MERKEZ-KULLAR ARITMA-İZMİT-BATI TERMİNALİ",
+    "route_code": "615"
+  },
+  {
+    "id": "621",
+    "label": "621 - YUVACIK-İZMİT-BATI TERMİNALİ (YENİ YOL)",
+    "value": "621 - YUVACIK-İZMİT-BATI TERMİNALİ (YENİ YOL)",
+    "route_code": "621"
+  },
+  {
+    "id": "631",
+    "label": "631 - BAHÇECİK-İZMİT-BATI TERMİNALİ (ESKİYOL)",
+    "value": "631 - BAHÇECİK-İZMİT-BATI TERMİNALİ (ESKİYOL)",
+    "route_code": "631"
+  },
+  {
+    "id": "641",
+    "label": "641 - DÖNGEL-BATI TERMİNALİ-İZMİT (ESKİ YOL)",
+    "value": "641 - DÖNGEL-BATI TERMİNALİ-İZMİT (ESKİ YOL)",
+    "route_code": "641"
+  },
+  {
+    "id": "651",
+    "label": "651 - KİRAZLIKENT-YENİKÖY-ATAKENT-İZMİT-BATI TERMİNALİ (ESKİ YOL",
+    "value": "651 - KİRAZLIKENT-YENİKÖY-ATAKENT-İZMİT-BATI TERMİNALİ (ESKİ YOL",
+    "route_code": "651"
+  },
+  {
+    "id": "671",
+    "label": "671 - YAZLIK MERKEZ-ILICA-ESKİ GARAJLAR-KERİM AĞA",
+    "value": "671 - YAZLIK MERKEZ-ILICA-ESKİ GARAJLAR-KERİM AĞA",
+    "route_code": "671"
+  },
+  {
+    "id": "681",
+    "label": "681 - İHSANİYE-GÖLCÜK DEVLET HAST.-ÇİFTLİK-ESKİ GARAJLA-KERİM AĞA",
+    "value": "681 - İHSANİYE-GÖLCÜK DEVLET HAST.-ÇİFTLİK-ESKİ GARAJLA-KERİM AĞA",
+    "route_code": "681"
+  },
+  {
+    "id": "711",
+    "label": "711 - SARAYLI-ÇARŞI-GARAJLAR-DİŞ HASTANESİ-OTOGAR",
+    "value": "711 - SARAYLI-ÇARŞI-GARAJLAR-DİŞ HASTANESİ-OTOGAR",
+    "route_code": "711"
+  },
+  {
+    "id": "712",
+    "label": "712 - SARAYLI-BAYINDIRLIK-ÇARŞI-OTOGAR-DEVLET HAST.",
+    "value": "712 - SARAYLI-BAYINDIRLIK-ÇARŞI-OTOGAR-DEVLET HAST.",
+    "route_code": "712"
+  },
+  {
+    "id": "713",
+    "label": "713 - SARAYLI-TELEKOM-SAHİL CAD.-DEVLET HAST.",
+    "value": "713 - SARAYLI-TELEKOM-SAHİL CAD.-DEVLET HAST.",
+    "route_code": "713"
+  },
+  {
+    "id": "714",
+    "label": "714 - SARAYLI-ŞİRİNKÖY-YÜKSEKOKUL-DEVLET HAST.",
+    "value": "714 - SARAYLI-ŞİRİNKÖY-YÜKSEKOKUL-DEVLET HAST.",
+    "route_code": "714"
+  },
+  {
+    "id": "715",
+    "label": "715 - ŞİRİNKÖY-DEVLET HASTANESİ-ESKİ GARAJLAR-GÖLCÜK ÇARŞI",
+    "value": "715 - ŞİRİNKÖY-DEVLET HASTANESİ-ESKİ GARAJLAR-GÖLCÜK ÇARŞI",
+    "route_code": "715"
+  },
+  {
+    "id": "716",
+    "label": "716 - ŞİRİNKÖY-DEVLET HASTANESİ-ESKİ GARAJLAR-GÖLCÜK ÇARŞI",
+    "value": "716 - ŞİRİNKÖY-DEVLET HASTANESİ-ESKİ GARAJLAR-GÖLCÜK ÇARŞI",
+    "route_code": "716"
+  },
+  {
+    "id": "717",
+    "label": "717 - ŞİRİNKÖY-DEVLET HASTANESİ-ÇARŞAMBA PAZARI-GÖLCÜK ÇARŞI",
+    "value": "717 - ŞİRİNKÖY-DEVLET HASTANESİ-ÇARŞAMBA PAZARI-GÖLCÜK ÇARŞI",
+    "route_code": "717"
+  },
+  {
+    "id": "718",
+    "label": "718 - ŞİRİNKÖY-ŞEHİTLER MAHALLESİ-GÖLCÜK ÇARŞI",
+    "value": "718 - ŞİRİNKÖY-ŞEHİTLER MAHALLESİ-GÖLCÜK ÇARŞI",
+    "route_code": "718"
+  },
+  {
+    "id": "721",
+    "label": "721 - YÜZBAŞILAR-KURTULUŞ-GÖLCÜK-İZMİT-BATI TERMİNAL (ESKİ YOL)",
+    "value": "721 - YÜZBAŞILAR-KURTULUŞ-GÖLCÜK-İZMİT-BATI TERMİNAL (ESKİ YOL)",
+    "route_code": "721"
+  },
+  {
+    "id": "731",
+    "label": "731 - YÜZBAŞILAR-ÇINARLIK MEYDAN-KURTULUŞ-DONANMA-GÖLCÜK",
+    "value": "731 - YÜZBAŞILAR-ÇINARLIK MEYDAN-KURTULUŞ-DONANMA-GÖLCÜK",
+    "route_code": "731"
+  },
+  {
+    "id": "751",
+    "label": "751 - KARAMÜRSEL-TERMİNAL-İZMİT-BATI TERMİNALİ (ESKİ YOL)",
+    "value": "751 - KARAMÜRSEL-TERMİNAL-İZMİT-BATI TERMİNALİ (ESKİ YOL)",
+    "route_code": "751"
+  },
+  {
+    "id": "761",
+    "label": "761 - KENTKONUT- TERMİNAL-ALTINKEMER PLAJI-DEVLET HAST.",
+    "value": "761 - KENTKONUT- TERMİNAL-ALTINKEMER PLAJI-DEVLET HAST.",
+    "route_code": "761"
+  },
+  {
+    "id": "781",
+    "label": "781 - KIZDERBENT -YALAKDERE -HAYRİYE-K.AHMETLİ- OLUKLU-TERMİNAL",
+    "value": "781 - KIZDERBENT -YALAKDERE -HAYRİYE-K.AHMETLİ- OLUKLU-TERMİNAL",
+    "route_code": "781"
+  },
+  {
+    "id": "812",
+    "label": "812 - K.Y.K KANDIRA YURDU-TERMİNAL-ÇARŞI-YEŞİL CAMİ-YÜKSEK OKUL",
+    "value": "812 - K.Y.K KANDIRA YURDU-TERMİNAL-ÇARŞI-YEŞİL CAMİ-YÜKSEK OKUL",
+    "route_code": "812"
+  },
+  {
+    "id": "813",
+    "label": "813 - YEŞİL CAMİ-KANDIRA TERMİNALİ-KANDIRA DEVLET HAST.",
+    "value": "813 - YEŞİL CAMİ-KANDIRA TERMİNALİ-KANDIRA DEVLET HAST.",
+    "route_code": "813"
+  },
+  {
+    "id": "T1",
+    "label": "T1 - OTOGAR-KURUÇEŞME",
+    "value": "T1 - OTOGAR-KURUÇEŞME",
+    "route_code": "T1"
+  },
+  {
+    "id": "16",
+    "label": "16 - DOĞUKIŞLA-ERENLER-İZMİT KENT-SANTRAL-BULVAR-DOĞUKIŞLA",
+    "value": "16 - DOĞUKIŞLA-ERENLER-İZMİT KENT-SANTRAL-BULVAR-DOĞUKIŞLA",
+    "route_code": "16"
+  },
+  {
+    "id": "241",
+    "label": "241 - DERBENT M.Y.O-ACISU-TEPETARLA-IZMIT-BATI TERMINALI",
+    "value": "241 - DERBENT M.Y.O-ACISU-TEPETARLA-IZMIT-BATI TERMINALI",
+    "route_code": "241"
+  },
+  {
+    "id": "D1",
+    "label": "D1 - GEBZE MİLLET BAHÇESİ-HASKÖY SANAYİ SİTESİ",
+    "value": "D1 - GEBZE MİLLET BAHÇESİ-HASKÖY SANAYİ SİTESİ",
+    "route_code": "D1"
+  },
+  {
+    "id": "181",
+    "label": "181 - AŞAĞI HEREKE-KÜLLÜK-KIŞLADÜZÜ-AŞAĞI HEREKE",
+    "value": "181 - AŞAĞI HEREKE-KÜLLÜK-KIŞLADÜZÜ-AŞAĞI HEREKE",
+    "route_code": "181"
+  },
+  {
+    "id": "115Ç",
+    "label": "115Ç - KÖRFEZKENT-SOPALI-ÇENEDAĞ-İZMİT-ÜÇYOL-UMUTTEPE",
+    "value": "115Ç - KÖRFEZKENT-SOPALI-ÇENEDAĞ-İZMİT-ÜÇYOL-UMUTTEPE",
+    "route_code": "115Ç"
+  },
+  {
+    "id": "KM11",
+    "label": "KM11 - PINARLI-BAĞIRGANLI-ÇALKÖY-SEYREK-KANDIRA",
+    "value": "KM11 - PINARLI-BAĞIRGANLI-ÇALKÖY-SEYREK-KANDIRA",
+    "route_code": "KM11"
+  },
+  {
+    "id": "KM12",
+    "label": "KM12 - ÇERÇİLİ-BELEN-M.ERİKLİ-KAYPALI-KANDIRA",
+    "value": "KM12 - ÇERÇİLİ-BELEN-M.ERİKLİ-KAYPALI-KANDIRA",
+    "route_code": "KM12"
+  },
+  {
+    "id": "KM13",
+    "label": "KM13 - HACILAR-BALABAN-HEDİYELİ-KANDIRA",
+    "value": "KM13 - HACILAR-BALABAN-HEDİYELİ-KANDIRA",
+    "route_code": "KM13"
+  },
+  {
+    "id": "KM14",
+    "label": "KM14 - BEYLERBEYİ-ANTAPLI-GENCALİ-BOLLU-SAFALI-KANDIRA",
+    "value": "KM14 - BEYLERBEYİ-ANTAPLI-GENCALİ-BOLLU-SAFALI-KANDIRA",
+    "route_code": "KM14"
+  },
+  {
+    "id": "KM15",
+    "label": "KM15 - AĞVA-YAĞCILAR-AVDAN-AKÇAGİL-G.AYDIN-CEZAEVİ-BEKİRDERE",
+    "value": "KM15 - AĞVA-YAĞCILAR-AVDAN-AKÇAGİL-G.AYDIN-CEZAEVİ-BEKİRDERE",
+    "route_code": "KM15"
+  },
+  {
+    "id": "KM16",
+    "label": "KM16 - TEKSEN-AKÇAOVA-HEDİYELİ-KANDIRA",
+    "value": "KM16 - TEKSEN-AKÇAOVA-HEDİYELİ-KANDIRA",
+    "route_code": "KM16"
+  },
+  {
+    "id": "KM17",
+    "label": "KM17 - TEKSEN-AKÇAOVA-ÇALCA-ÇAKMAKLAR-SEPETÇİ-İZMİT",
+    "value": "KM17 - TEKSEN-AKÇAOVA-ÇALCA-ÇAKMAKLAR-SEPETÇİ-İZMİT",
+    "route_code": "KM17"
+  },
+  {
+    "id": "KM18",
+    "label": "KM18 - SULTANİYE- PAZARÇAYIRI-SUADİYE-ARSLANBEY-KAYMAKAMLIK",
+    "value": "KM18 - SULTANİYE- PAZARÇAYIRI-SUADİYE-ARSLANBEY-KAYMAKAMLIK",
+    "route_code": "KM18"
+  },
+  {
+    "id": "KM19",
+    "label": "KM19 - KETENCİLER-KİRAZOĞLU-İZMİT",
+    "value": "KM19 - KETENCİLER-KİRAZOĞLU-İZMİT",
+    "route_code": "KM19"
+  },
+  {
+    "id": "KM31",
+    "label": "KM31 - İSHAÇILAR-GEREDELİ-İZMİT",
+    "value": "KM31 - İSHAÇILAR-GEREDELİ-İZMİT",
+    "route_code": "KM31"
+  },
+  {
+    "id": "KM41",
+    "label": "KM41 - HASANCIK -ORTABURUN-KURTDERE-İZMİT",
+    "value": "KM41 - HASANCIK -ORTABURUN-KURTDERE-İZMİT",
+    "route_code": "KM41"
+  },
+  {
+    "id": "KM51",
+    "label": "KM51 - ESKİFERADİYE-MAMURİYE-ÜMMİYE-SIRETİYE-GÖLCÜK",
+    "value": "KM51 - ESKİFERADİYE-MAMURİYE-ÜMMİYE-SIRETİYE-GÖLCÜK",
+    "route_code": "KM51"
+  },
+  {
+    "id": "KM61",
+    "label": "KM61 - SELİMİYE-GÖLCÜK",
+    "value": "KM61 - SELİMİYE-GÖLCÜK",
+    "route_code": "KM61"
+  },
+  {
+    "id": "431",
+    "label": "431 - İSTASYON-KİRAZPINAR",
+    "value": "431 - İSTASYON-KİRAZPINAR",
+    "route_code": "431"
+  },
+  {
+    "id": "91",
+    "label": "91 - ŞAHİN TEPESİ-CUMH. MAH.-PLAJYOLU TRAMVAY-D.KIŞLA PARKI",
+    "value": "91 - ŞAHİN TEPESİ-CUMH. MAH.-PLAJYOLU TRAMVAY-D.KIŞLA PARKI",
+    "route_code": "91"
+  },
+  {
+    "id": "515B",
+    "label": "515B - KENTÖNÜ-DARICA-GEBZE-İNÖNÜ- ADLİYE",
+    "value": "515B - KENTÖNÜ-DARICA-GEBZE-İNÖNÜ- ADLİYE",
+    "route_code": "515B"
+  },
+  {
+    "id": "KM21",
+    "label": "KM21 - FERHADİYE-YENİKÖY-SEYMEN-ESKİ GARAJLAR-KERİM AĞA",
+    "value": "KM21 - FERHADİYE-YENİKÖY-SEYMEN-ESKİ GARAJLAR-KERİM AĞA",
+    "route_code": "KM21"
+  },
+  {
+    "id": "KM81",
+    "label": "KM81 - KANDIRA-KURTYERİ-BALLAR-AKÇABEYLİ-KARAAĞAÇ-PINARDÜZÜ",
+    "value": "KM81 - KANDIRA-KURTYERİ-BALLAR-AKÇABEYLİ-KARAAĞAÇ-PINARDÜZÜ",
+    "route_code": "KM81"
+  },
+  {
+    "id": "81B",
+    "label": "81B - BAYINDIRLIK-BOĞAZOVA CADDESİ-CUMHURİYET PARKI-TREN GARI",
+    "value": "81B - BAYINDIRLIK-BOĞAZOVA CADDESİ-CUMHURİYET PARKI-TREN GARI",
+    "route_code": "81B"
+  },
+  {
+    "id": "416",
+    "label": "416 - ESKİHİSAR-ARAPÇEŞME",
+    "value": "416 - ESKİHİSAR-ARAPÇEŞME",
+    "route_code": "416"
+  },
+  {
+    "id": "G1",
+    "label": "G1 - FATİH TREN İST. - ÇAYIROVA-YENİKENT - GEBZE",
+    "value": "G1 - FATİH TREN İST. - ÇAYIROVA-YENİKENT - GEBZE",
+    "route_code": "G1"
+  },
+  {
+    "id": "134",
+    "label": "134 - YENİKENT-KAŞKAL-DERİNCE-EREN CAMİ-SANAYI-GÜNEY TERMİNA",
+    "value": "134 - YENİKENT-KAŞKAL-DERİNCE-EREN CAMİ-SANAYI-GÜNEY TERMİNA",
+    "route_code": "134"
+  },
+  {
+    "id": "417",
+    "label": "417 - İSTASYON-FATİH DH-M.PAŞA-İNÖNÜ-YENİKENT-İNÖNÜ-M.PAŞA-FATİH D.",
+    "value": "417 - İSTASYON-FATİH DH-M.PAŞA-İNÖNÜ-YENİKENT-İNÖNÜ-M.PAŞA-FATİH D.",
+    "route_code": "417"
+  },
+  {
+    "id": "41K",
+    "label": "41K - AŞAĞI HEREKE-KÖRFEZ-DERİNCE-İZMİT-KARTEPE",
+    "value": "41K - AŞAĞI HEREKE-KÖRFEZ-DERİNCE-İZMİT-KARTEPE",
+    "route_code": "41K"
+  },
+  {
+    "id": "213",
+    "label": "213 - SARIMEŞE-KARTEPE KAYMAKAMLIK-İSTASYON-İZMİT",
+    "value": "213 - SARIMEŞE-KARTEPE KAYMAKAMLIK-İSTASYON-İZMİT",
+    "route_code": "213"
+  },
+  {
+    "id": "41Ç",
+    "label": "41Ç - SAHİL- BALIKHAN-LEYLA  ATAKAN-CUMHURİYET PARKI-SEKA PARK",
+    "value": "41Ç - SAHİL- BALIKHAN-LEYLA  ATAKAN-CUMHURİYET PARKI-SEKA PARK",
+    "route_code": "41Ç"
+  },
+  {
+    "id": "182",
+    "label": "182 - AŞAĞI HEREKE-KIŞLADÜZÜ-YUKARI HEREKE",
+    "value": "182 - AŞAĞI HEREKE-KIŞLADÜZÜ-YUKARI HEREKE",
+    "route_code": "182"
+  },
+  {
+    "id": "P1",
+    "label": "P1 - MEVLANA KAPALI PAZAR-MUSTAFA PAŞA - TRAFO MEYDAN",
+    "value": "P1 - MEVLANA KAPALI PAZAR-MUSTAFA PAŞA - TRAFO MEYDAN",
+    "route_code": "P1"
+  },
+  {
+    "id": "421",
+    "label": "421 - BEYLİKBAĞI-FATİH D.H",
+    "value": "421 - BEYLİKBAĞI-FATİH D.H",
+    "route_code": "421"
+  },
+  {
+    "id": "TF1",
+    "label": "TF1 - UMUTTEPE-İZMİT-ORMANYA-SEKA KAMPI-TELEFERİK",
+    "value": "TF1 - UMUTTEPE-İZMİT-ORMANYA-SEKA KAMPI-TELEFERİK",
+    "route_code": "TF1"
+  },
+  {
+    "id": "SH12",
+    "label": "SH12 - KİRAZLIKENT-YENİKÖY-BAHÇECİK--YEŞİLKENT-KARŞIYAKA-ŞEHİR HAST",
+    "value": "SH12 - KİRAZLIKENT-YENİKÖY-BAHÇECİK--YEŞİLKENT-KARŞIYAKA-ŞEHİR HAST",
+    "route_code": "SH12"
+  },
+  {
+    "id": "SH13",
+    "label": "SH13 - BAŞİSKELE BELEDİYESİ-YUVACIK-KULLAR-ŞEHİR HASTANESİ",
+    "value": "SH13 - BAŞİSKELE BELEDİYESİ-YUVACIK-KULLAR-ŞEHİR HASTANESİ",
+    "route_code": "SH13"
+  },
+  {
+    "id": "SH14",
+    "label": "SH14 - EMEKEVLER -KENT MEYDANI-DUMLUPINAR MAH.-ŞEHİR HAST.",
+    "value": "SH14 - EMEKEVLER -KENT MEYDANI-DUMLUPINAR MAH.-ŞEHİR HAST.",
+    "route_code": "SH14"
+  },
+  {
+    "id": "SH15",
+    "label": "SH15 - ACISU-MAŞUKİYE-DERBENT-SUADİYE-ARSLANBEY-ŞEHİR HASTANESİ",
+    "value": "SH15 - ACISU-MAŞUKİYE-DERBENT-SUADİYE-ARSLANBEY-ŞEHİR HASTANESİ",
+    "route_code": "SH15"
+  },
+  {
+    "id": "SH16",
+    "label": "SH16 - UMUTTEPE-ŞEHİR HASTANESİ-KANDIRA OTOGAR",
+    "value": "SH16 - UMUTTEPE-ŞEHİR HASTANESİ-KANDIRA OTOGAR",
+    "route_code": "SH16"
+  },
+  {
+    "id": "SH17",
+    "label": "SH17 - İLİMTEPE-ÇAMLITEPE-YENİYALI-ESENTEPE-ŞEHİR HASTANESİ",
+    "value": "SH17 - İLİMTEPE-ÇAMLITEPE-YENİYALI-ESENTEPE-ŞEHİR HASTANESİ",
+    "route_code": "SH17"
+  },
+  {
+    "id": "SH18",
+    "label": "SH18 - Y.HEREKE-A.HEREKE-ALTYOL-T.ÇİFTLİK-ŞEHİR HASTANESİ",
+    "value": "SH18 - Y.HEREKE-A.HEREKE-ALTYOL-T.ÇİFTLİK-ŞEHİR HASTANESİ",
+    "route_code": "SH18"
+  },
+  {
+    "id": "SH19",
+    "label": "SH19 - DİLİSKELESİ-DİLOVASI-TAVŞANCIL-HEREKE-ŞEHİR HASTANESİ",
+    "value": "SH19 - DİLİSKELESİ-DİLOVASI-TAVŞANCIL-HEREKE-ŞEHİR HASTANESİ",
+    "route_code": "SH19"
+  },
+  {
+    "id": "SH21",
+    "label": "SH21 - GEBZE TEKNİK ÜNİ-DARICA-MARMARAY İSTASYON-ŞEHİR HAST.",
+    "value": "SH21 - GEBZE TEKNİK ÜNİ-DARICA-MARMARAY İSTASYON-ŞEHİR HAST.",
+    "route_code": "SH21"
+  },
+  {
+    "id": "SH11",
+    "label": "SH11 - S.TEPE TOKİ-İHSANİYE-HİSAREYN-YAZLIK-BAŞİSKELE-ŞEHİR HAST.",
+    "value": "SH11 - S.TEPE TOKİ-İHSANİYE-HİSAREYN-YAZLIK-BAŞİSKELE-ŞEHİR HAST.",
+    "route_code": "SH11"
+  },
+  {
+    "id": "164",
+    "label": "164 - İLİMTEPE-KÖRFEZKENT-ESENTEPE-95 EVLER-TÜTÜNÇİFTLİK",
+    "value": "164 - İLİMTEPE-KÖRFEZKENT-ESENTEPE-95 EVLER-TÜTÜNÇİFTLİK",
+    "route_code": "164"
+  },
+  {
+    "id": "N1",
+    "label": "N1 - BATI TERMİNALİ-TREN GARI-OTOGAR-ŞEHİR HAST.-UMUTTEPE",
+    "value": "N1 - BATI TERMİNALİ-TREN GARI-OTOGAR-ŞEHİR HAST.-UMUTTEPE",
+    "route_code": "N1"
+  },
+  {
+    "id": "24",
+    "label": "24 - GÜNEY TERMİNALİ-YAHYA KAPTAN-İZMİT OTOGAR-YEŞİLOVA-UMUTTEPE",
+    "value": "24 - GÜNEY TERMİNALİ-YAHYA KAPTAN-İZMİT OTOGAR-YEŞİLOVA-UMUTTEPE",
+    "route_code": "24"
+  },
+  {
+    "id": "26",
+    "label": "26 - YUVAM AKARCA-OTOGAR-KAVANIUM-BATI TERMİNALİ",
+    "value": "26 - YUVAM AKARCA-OTOGAR-KAVANIUM-BATI TERMİNALİ",
+    "route_code": "26"
+  },
+  {
+    "id": "28",
+    "label": "28 - YUVAM AKARCA-OTOGAR-BATI TERMİNALİ",
+    "value": "28 - YUVAM AKARCA-OTOGAR-BATI TERMİNALİ",
+    "route_code": "28"
+  },
+  {
+    "id": "42",
+    "label": "42 - CUMHURİYET PARKI-AKÇAKOCA-BAĞÇEŞME-KAYMAZ SOKAK-ÇINARLI",
+    "value": "42 - CUMHURİYET PARKI-AKÇAKOCA-BAĞÇEŞME-KAYMAZ SOKAK-ÇINARLI",
+    "route_code": "42"
+  },
+  {
+    "id": "62",
+    "label": "62 - ARIZLI-AĞAKÖY-YENİDOĞAN-BİLİM MERKEZİ-BATI TERMİNALİ",
+    "value": "62 - ARIZLI-AĞAKÖY-YENİDOĞAN-BİLİM MERKEZİ-BATI TERMİNALİ",
+    "route_code": "62"
+  },
+  {
+    "id": "92",
+    "label": "92 - ÇENESUYU- KURUÇEŞME- BEKİRDERE-BAYINDIRLIK",
+    "value": "92 - ÇENESUYU- KURUÇEŞME- BEKİRDERE-BAYINDIRLIK",
+    "route_code": "92"
+  },
+  {
+    "id": "242",
+    "label": "242 - ŞİRİNSULHİYE-DERBENT-ACISU-T.TARLA-İZMİT-B.TERMİNALİ",
+    "value": "242 - ŞİRİNSULHİYE-DERBENT-ACISU-T.TARLA-İZMİT-B.TERMİNALİ",
+    "route_code": "242"
+  },
+  {
+    "id": "243",
+    "label": "243 - BALABAN-DERBENT-ACISU-TEPETARLA-İZMİT-BATI TERMİNALİ",
+    "value": "243 - BALABAN-DERBENT-ACISU-TEPETARLA-İZMİT-BATI TERMİNALİ",
+    "route_code": "243"
+  },
+  {
+    "id": "255",
+    "label": "255 - DERBENT-ARSLANBEY-KARATEPE-ATAKENT-RAHMİYE-İZMİT-UMUTTEPE",
+    "value": "255 - DERBENT-ARSLANBEY-KARATEPE-ATAKENT-RAHMİYE-İZMİT-UMUTTEPE",
+    "route_code": "255"
+  },
+  {
+    "id": "262",
+    "label": "262 - MAŞUKİYE-BEŞEVLER-DERBENT-TEPETARLA-İZMİT-BATI TERMİNALİ",
+    "value": "262 - MAŞUKİYE-BEŞEVLER-DERBENT-TEPETARLA-İZMİT-BATI TERMİNALİ",
+    "route_code": "262"
+  },
+  {
+    "id": "265",
+    "label": "265 - MAŞUKİYE-DERBENT-ACISU-İZMİT-OTOGAR-UMUTTEPE",
+    "value": "265 - MAŞUKİYE-DERBENT-ACISU-İZMİT-OTOGAR-UMUTTEPE",
+    "route_code": "265"
+  },
+  {
+    "id": "287",
+    "label": "287 - EŞME-ORMANYA-CENGİZ TOPEL-KÖSEKÖY-İZMİT-BATI TERMİNALİ",
+    "value": "287 - EŞME-ORMANYA-CENGİZ TOPEL-KÖSEKÖY-İZMİT-BATI TERMİNALİ",
+    "route_code": "287"
+  },
+  {
+    "id": "289",
+    "label": "289 - EŞME-UZUNTARLA-CENGİZ TOPEL-KÖSEKÖY-KAYMAKAMLIK",
+    "value": "289 - EŞME-UZUNTARLA-CENGİZ TOPEL-KÖSEKÖY-KAYMAKAMLIK",
+    "route_code": "289"
+  },
+  {
+    "id": "299",
+    "label": "299 - SUADİYE-ARSLANBEY-M.Y.O-KÖSEKÖY-EMEKEVLER",
+    "value": "299 - SUADİYE-ARSLANBEY-M.Y.O-KÖSEKÖY-EMEKEVLER",
+    "route_code": "299"
+  },
+  {
+    "id": "325",
+    "label": "325 - DİLİSKELESİ-GEBZE-ÇAĞDAŞKENT",
+    "value": "325 - DİLİSKELESİ-GEBZE-ÇAĞDAŞKENT",
+    "route_code": "325"
+  },
+  {
+    "id": "422",
+    "label": "422 - YAVUZ SELİM-MUSTAFA PAŞA CAMİ-FATİH DEVLET HAST.-İSTASYON",
+    "value": "422 - YAVUZ SELİM-MUSTAFA PAŞA CAMİ-FATİH DEVLET HAST.-İSTASYON",
+    "route_code": "422"
+  },
+  {
+    "id": "423",
+    "label": "423 - DENİZLİ - GEBZE-TATLIKUYU KAPALI PAZAR ALANI",
+    "value": "423 - DENİZLİ - GEBZE-TATLIKUYU KAPALI PAZAR ALANI",
+    "route_code": "423"
+  },
+  {
+    "id": "425",
+    "label": "425 - KBB GARAJ -ADLİYE - BEYLİKBAĞI-GEBZE-MARMARAY-DARICA",
+    "value": "425 - KBB GARAJ -ADLİYE - BEYLİKBAĞI-GEBZE-MARMARAY-DARICA",
+    "route_code": "425"
+  },
+  {
+    "id": "426",
+    "label": "426 - BALÇIK - GEBZE-TATLIKUYU KAPALI PAZAR ALANI",
+    "value": "426 - BALÇIK - GEBZE-TATLIKUYU KAPALI PAZAR ALANI",
+    "route_code": "426"
+  },
+  {
+    "id": "429",
+    "label": "429 - MUDURNUTEPE-BEYLİKBAĞI-OSMANGAZİ TREN İST.",
+    "value": "429 - MUDURNUTEPE-BEYLİKBAĞI-OSMANGAZİ TREN İST.",
+    "route_code": "429"
+  },
+  {
+    "id": "525",
+    "label": "525 - ÇAYIROVA TREN İSTASYONU-MUSTAFA PAŞA CAMİİ",
+    "value": "525 - ÇAYIROVA TREN İSTASYONU-MUSTAFA PAŞA CAMİİ",
+    "route_code": "525"
+  },
+  {
+    "id": "525S",
+    "label": "525S - KBB GARAJ - Y.SELİM - MARMARAY-S.SÖĞÜTLER - FARABİ - DARICA",
+    "value": "525S - KBB GARAJ - Y.SELİM - MARMARAY-S.SÖĞÜTLER - FARABİ - DARICA",
+    "route_code": "525S"
+  },
+  {
+    "id": "552",
+    "label": "552 - GTÜ -EMEK-BOSNA CAD-ADLİYE - GEBZE - FATİH D.H.",
+    "value": "552 - GTÜ -EMEK-BOSNA CAD-ADLİYE - GEBZE - FATİH D.H.",
+    "route_code": "552"
+  },
+  {
+    "id": "622",
+    "label": "622 - YUVACIK-TINAZTEPE-İZMİT-BATI TERMİNALİ (YENİ YOL)",
+    "value": "622 - YUVACIK-TINAZTEPE-İZMİT-BATI TERMİNALİ (YENİ YOL)",
+    "route_code": "622"
+  },
+  {
+    "id": "623",
+    "label": "623 - YUVACIK - AYDINKENT-İZMİT-BATI TERMİNAL (YENİ YOL)",
+    "value": "623 - YUVACIK - AYDINKENT-İZMİT-BATI TERMİNAL (YENİ YOL)",
+    "route_code": "623"
+  },
+  {
+    "id": "624",
+    "label": "624 - YUVACIK-DİŞ HASTANESİ-İZMİT-BATI TERMİNAL (YENİ YOL)",
+    "value": "624 - YUVACIK-DİŞ HASTANESİ-İZMİT-BATI TERMİNAL (YENİ YOL)",
+    "route_code": "624"
+  },
+  {
+    "id": "625",
+    "label": "625 - YUVACIK-AYDINKENT-İZMİT-BATI TERMİNALİ (ESKİYOL)",
+    "value": "625 - YUVACIK-AYDINKENT-İZMİT-BATI TERMİNALİ (ESKİYOL)",
+    "route_code": "625"
+  },
+  {
+    "id": "626",
+    "label": "626 - YUVACIK ARITMA-TED KOLEJİ-İZMİT-BATI TERMİNAL (YENİ YOL)",
+    "value": "626 - YUVACIK ARITMA-TED KOLEJİ-İZMİT-BATI TERMİNAL (YENİ YOL)",
+    "route_code": "626"
+  },
+  {
+    "id": "627",
+    "label": "627 - YUVACIK TINAZTEPE-İZMİT-BATI TERMİNALİ (ESKİYOL)",
+    "value": "627 - YUVACIK TINAZTEPE-İZMİT-BATI TERMİNALİ (ESKİYOL)",
+    "route_code": "627"
+  },
+  {
+    "id": "632",
+    "label": "632 - BAHÇECİK-İZMİT-BATI TERMİNALİ (YENİ YOL)",
+    "value": "632 - BAHÇECİK-İZMİT-BATI TERMİNALİ (YENİ YOL)",
+    "route_code": "632"
+  },
+  {
+    "id": "642",
+    "label": "642 - DÖNGEL-İZMİT-BATI TERMİNALİ (YENİ YOL)",
+    "value": "642 - DÖNGEL-İZMİT-BATI TERMİNALİ (YENİ YOL)",
+    "route_code": "642"
+  },
+  {
+    "id": "652",
+    "label": "652 - YENİKÖY-İZMİT (YENİ YOL)",
+    "value": "652 - YENİKÖY-İZMİT (YENİ YOL)",
+    "route_code": "652"
+  },
+  {
+    "id": "662",
+    "label": "662 - KOSBAŞ-YUVAM SİTESİ-S.PINAR-M.K.E-BATI TERMİNALİ(YENİ YOL)",
+    "value": "662 - KOSBAŞ-YUVAM SİTESİ-S.PINAR-M.K.E-BATI TERMİNALİ(YENİ YOL)",
+    "route_code": "662"
+  },
+  {
+    "id": "682",
+    "label": "682 - İHSANİYE-GÖLCÜK DEVLET HAST.-ÇİFTLİK-ESKİ GARAJLA-KERİM AĞA",
+    "value": "682 - İHSANİYE-GÖLCÜK DEVLET HAST.-ÇİFTLİK-ESKİ GARAJLA-KERİM AĞA",
+    "route_code": "682"
+  },
+  {
+    "id": "692",
+    "label": "692 - İHSANİYE-GÖLCÜK DEVLET HAST.-İZMİT-BATI TERMİNALİ(YENİ YOL)",
+    "value": "692 - İHSANİYE-GÖLCÜK DEVLET HAST.-İZMİT-BATI TERMİNALİ(YENİ YOL)",
+    "route_code": "692"
+  },
+  {
+    "id": "722",
+    "label": "722 - YÜZBAŞILAR-KURTULUŞ-GÖLCÜK-İZMİT-BATI TERMİNALİ (YENİ YO)",
+    "value": "722 - YÜZBAŞILAR-KURTULUŞ-GÖLCÜK-İZMİT-BATI TERMİNALİ (YENİ YO)",
+    "route_code": "722"
+  },
+  {
+    "id": "732",
+    "label": "732 - ÇINARLIK MEYDAN-Y.DEĞİRMENDERE-ATATÜRK MAHALLESİ-GÖLCÜK",
+    "value": "732 - ÇINARLIK MEYDAN-Y.DEĞİRMENDERE-ATATÜRK MAHALLESİ-GÖLCÜK",
+    "route_code": "732"
+  },
+  {
+    "id": "752",
+    "label": "752 - KARAMÜRSEL TERMİNAL-İZMİT-SANAYİ-BATI TERMİNAL(YENİ YOL)",
+    "value": "752 - KARAMÜRSEL TERMİNAL-İZMİT-SANAYİ-BATI TERMİNAL(YENİ YOL)",
+    "route_code": "752"
+  },
+  {
+    "id": "762",
+    "label": "762 - KARAMÜRSEL KENTKONUT-SAHİL- BALIKÇI BARINAĞI",
+    "value": "762 - KARAMÜRSEL KENTKONUT-SAHİL- BALIKÇI BARINAĞI",
+    "route_code": "762"
+  },
+  {
+    "id": "772",
+    "label": "772 - ALTINKEMER-KARAMÜRSEL TERMİNAL-DEREKÖY ALTI-YALOVA",
+    "value": "772 - ALTINKEMER-KARAMÜRSEL TERMİNAL-DEREKÖY ALTI-YALOVA",
+    "route_code": "772"
+  },
+  {
+    "id": "782",
+    "label": "782 - AVCIKÖY-YALAKDERE-KARAAHMETLİ-OLUKLU-K.MÜRSEL TERMİNAL",
+    "value": "782 - AVCIKÖY-YALAKDERE-KARAAHMETLİ-OLUKLU-K.MÜRSEL TERMİNAL",
+    "route_code": "782"
+  },
+  {
+    "id": "29T",
+    "label": "29T - OTOGAR-ALİKAHYA-STADYUM",
+    "value": "29T - OTOGAR-ALİKAHYA-STADYUM",
+    "route_code": "29T"
+  },
+  {
+    "id": "25",
+    "label": "25 - KİPA AVM-PLAJYOLU-YUVAM AKARCA-SOLAKLAR CAD-ISU SANTİYE",
+    "value": "25 - KİPA AVM-PLAJYOLU-YUVAM AKARCA-SOLAKLAR CAD-ISU SANTİYE",
+    "route_code": "25"
+  },
+  {
+    "id": "KM22",
+    "label": "KM22 - OSMANİYE-KARAMÜRSEL",
+    "value": "KM22 - OSMANİYE-KARAMÜRSEL",
+    "route_code": "KM22"
+  },
+  {
+    "id": "KM26",
+    "label": "KM26 - YUVACIK-AKSIĞIN-TEPECİK-SERİNDERE-CAMİDÜZÜ-YUVACIK",
+    "value": "KM26 - YUVACIK-AKSIĞIN-TEPECİK-SERİNDERE-CAMİDÜZÜ-YUVACIK",
+    "route_code": "KM26"
+  },
+  {
+    "id": "KM27",
+    "label": "KM27 - YUVACIK-KAZANDERE-SERVETİYE CAMİ",
+    "value": "KM27 - YUVACIK-KAZANDERE-SERVETİYE CAMİ",
+    "route_code": "KM27"
+  },
+  {
+    "id": "KM29",
+    "label": "KM29 - İSHAKÇILAR-ALACALAR-KARAGÖLLÜ-ÇAVUŞLU-KARAKADILAR",
+    "value": "KM29 - İSHAKÇILAR-ALACALAR-KARAGÖLLÜ-ÇAVUŞLU-KARAKADILAR",
+    "route_code": "KM29"
+  },
+  {
+    "id": "KM32",
+    "label": "KM32 - İSHAKÇILAR-TURAŞ",
+    "value": "KM32 - İSHAKÇILAR-TURAŞ",
+    "route_code": "KM32"
+  },
+  {
+    "id": "KM52",
+    "label": "KM52 - HASANEYN- NİMETİYE-GÖLCÜK",
+    "value": "KM52 - HASANEYN- NİMETİYE-GÖLCÜK",
+    "route_code": "KM52"
+  },
+  {
+    "id": "KM25",
+    "label": "KM25 - AĞVA-YAĞCILAR-AVDAN-AKÇAOVA-AKINCI-KANDIRA",
+    "value": "KM25 - AĞVA-YAĞCILAR-AVDAN-AKÇAOVA-AKINCI-KANDIRA",
+    "route_code": "KM25"
+  },
+  {
+    "id": "KM62",
+    "label": "KM62 - TAVŞANCIL-DİLOVASI-GEBZE",
+    "value": "KM62 - TAVŞANCIL-DİLOVASI-GEBZE",
+    "route_code": "KM62"
+  },
+  {
+    "id": "KM24",
+    "label": "KM24 - BAĞIRGANLI-BEYLERBEYİ-ANTAPLI-ÇERCİLİ-HACILAR-İZMİT",
+    "value": "KM24 - BAĞIRGANLI-BEYLERBEYİ-ANTAPLI-ÇERCİLİ-HACILAR-İZMİT",
+    "route_code": "KM24"
+  },
+  {
+    "id": "KM23",
+    "label": "KM23 - SULUDERE-SAFİYE-NUSRETİYE-KARAMÜRSEL",
+    "value": "KM23 - SULUDERE-SAFİYE-NUSRETİYE-KARAMÜRSEL",
+    "route_code": "KM23"
+  },
+  {
+    "id": "KM82",
+    "label": "KM82 - KANDIRA-KERPE-KUMCAĞIZ-DOĞANLAR-KEFKEN-CEBECİ",
+    "value": "KM82 - KANDIRA-KERPE-KUMCAĞIZ-DOĞANLAR-KEFKEN-CEBECİ",
+    "route_code": "KM82"
+  },
+  {
+    "id": "325H",
+    "label": "325H - DİLİSKELESİ-SIRASÖĞÜTLER",
+    "value": "325H - DİLİSKELESİ-SIRASÖĞÜTLER",
+    "route_code": "325H"
+  },
+  {
+    "id": "G2",
+    "label": "G2 - GEBZE MARMARAY-DARICA-GEBZE MARMARAY",
+    "value": "G2 - GEBZE MARMARAY-DARICA-GEBZE MARMARAY",
+    "route_code": "G2"
+  },
+  {
+    "id": "SH2",
+    "label": "SH2 - YAHYA KAPTAN-BEKİRDERE-YEŞİLOVA-ŞEHİR HASTANESİ",
+    "value": "SH2 - YAHYA KAPTAN-BEKİRDERE-YEŞİLOVA-ŞEHİR HASTANESİ",
+    "route_code": "SH2"
+  },
+  {
+    "id": "32B",
+    "label": "32B - TREN GARI-BAÇ-ŞEHİR HASTANESİ-BOĞAZOVA-BAYINDIRLIK",
+    "value": "32B - TREN GARI-BAÇ-ŞEHİR HASTANESİ-BOĞAZOVA-BAYINDIRLIK",
+    "route_code": "32B"
+  },
+  {
+    "id": "T2",
+    "label": "T2 - ŞEHİR HASTANESI-KURUÇEŞME",
+    "value": "T2 - ŞEHİR HASTANESI-KURUÇEŞME",
+    "route_code": "T2"
+  },
+  {
+    "id": "TF2",
+    "label": "TF2 - KÖRFEZ-DERİNCE-İZMİT-ORMANYA-S.KAMPI-TELEFERİK",
+    "value": "TF2 - KÖRFEZ-DERİNCE-İZMİT-ORMANYA-S.KAMPI-TELEFERİK",
+    "route_code": "TF2"
+  },
+  {
+    "id": "SH22",
+    "label": "SH22 - KBB GEBZE GARAJ-ÇAYIROVA-GEBZE-DİLOVASI-ŞEHİR HASTANESİ",
+    "value": "SH22 - KBB GEBZE GARAJ-ÇAYIROVA-GEBZE-DİLOVASI-ŞEHİR HASTANESİ",
+    "route_code": "SH22"
+  },
+  {
+    "id": "N2",
+    "label": "N2 - İZMİT-HALKEVİ- OTOGAR-MAŞUKİYE",
+    "value": "N2 - İZMİT-HALKEVİ- OTOGAR-MAŞUKİYE",
+    "route_code": "N2"
+  },
+  {
+    "id": "33",
+    "label": "33 - BATI TERMİNALİ-SEKA PARK-DOĞU KIŞLA-ÜÇ TEPELER-UMUTTEPE",
+    "value": "33 - BATI TERMİNALİ-SEKA PARK-DOĞU KIŞLA-ÜÇ TEPELER-UMUTTEPE",
+    "route_code": "33"
+  },
+  {
+    "id": "43",
+    "label": "43 - BATI TERMİNALİ-CUMHURİYET PARK-BAĞÇEŞME-UMUTTEPE",
+    "value": "43 - BATI TERMİNALİ-CUMHURİYET PARK-BAĞÇEŞME-UMUTTEPE",
+    "route_code": "43"
+  },
+  {
+    "id": "53",
+    "label": "53 - B.TERMİMALİ-HALKEVİ-TOPÇULAR-TUANA EVLERİ-UMUTTEPE",
+    "value": "53 - B.TERMİMALİ-HALKEVİ-TOPÇULAR-TUANA EVLERİ-UMUTTEPE",
+    "route_code": "53"
+  },
+  {
+    "id": "397",
+    "label": "397 - TEPECİK - GEBZE-FATİH D.H. - TATLIKUYU PAZAR",
+    "value": "397 - TEPECİK - GEBZE-FATİH D.H. - TATLIKUYU PAZAR",
+    "route_code": "397"
+  },
+  {
+    "id": "435",
+    "label": "435 - KBB GEBZE GARAJ-DİLOVASI-KÖRFEZ-İZMİT-UMUTTEPE",
+    "value": "435 - KBB GEBZE GARAJ-DİLOVASI-KÖRFEZ-İZMİT-UMUTTEPE",
+    "route_code": "435"
+  },
+  {
+    "id": "553",
+    "label": "553 - ÇAYIROVA-FATİH DEVLET HAST.-MUSTAFA PAŞA CAMİ",
+    "value": "553 - ÇAYIROVA-FATİH DEVLET HAST.-MUSTAFA PAŞA CAMİ",
+    "route_code": "553"
+  },
+  {
+    "id": "563",
+    "label": "563 - ÖZGÜNKENT-ŞEKERPINAR-MUTLUKENT-GEBZE ADLİYE-FATİH DEVLET HAST",
+    "value": "563 - ÖZGÜNKENT-ŞEKERPINAR-MUTLUKENT-GEBZE ADLİYE-FATİH DEVLET HAST",
+    "route_code": "563"
+  },
+  {
+    "id": "633",
+    "label": "633 - YEŞİLKENT-İZMİT-BATI TERMİNALİ(ESKİYOL)",
+    "value": "633 - YEŞİLKENT-İZMİT-BATI TERMİNALİ(ESKİYOL)",
+    "route_code": "633"
+  },
+  {
+    "id": "634",
+    "label": "634 - YEŞİLKENT-İZMİT-BATI TERMİNALİ (YENİ YOL)",
+    "value": "634 - YEŞİLKENT-İZMİT-BATI TERMİNALİ (YENİ YOL)",
+    "route_code": "634"
+  },
+  {
+    "id": "635",
+    "label": "635 - BAHÇECİK-YEŞİLKENT-İZMİT-UMUTTEPE",
+    "value": "635 - BAHÇECİK-YEŞİLKENT-İZMİT-UMUTTEPE",
+    "route_code": "635"
+  },
+  {
+    "id": "637",
+    "label": "637 - YEŞİLKENT-DAMLAR-İZMİT-BATI TERMİNALİ (ESKİYOL)",
+    "value": "637 - YEŞİLKENT-DAMLAR-İZMİT-BATI TERMİNALİ (ESKİYOL)",
+    "route_code": "637"
+  },
+  {
+    "id": "683",
+    "label": "683 - KERİM AĞA-ESKİ GARAJLAR-EMNİYET MÜD.-GÖLCÜK DEVLET HAS",
+    "value": "683 - KERİM AĞA-ESKİ GARAJLAR-EMNİYET MÜD.-GÖLCÜK DEVLET HAS",
+    "route_code": "683"
+  },
+  {
+    "id": "733",
+    "label": "733 - DEĞİRMENDERE-GÖLCÜK",
+    "value": "733 - DEĞİRMENDERE-GÖLCÜK",
+    "route_code": "733"
+  },
+  {
+    "id": "763",
+    "label": "763 - ALTINKEMER PLAJI-DEREKÖY - KARAMÜRSEL TERMİNAL",
+    "value": "763 - ALTINKEMER PLAJI-DEREKÖY - KARAMÜRSEL TERMİNAL",
+    "route_code": "763"
+  },
+  {
+    "id": "783",
+    "label": "783 - İNEBEYLİ-KARAAHMETLİ-OLUKLU-K.MÜRSEL TERMİNAL",
+    "value": "783 - İNEBEYLİ-KARAAHMETLİ-OLUKLU-K.MÜRSEL TERMİNAL",
+    "route_code": "783"
+  },
+  {
+    "id": "793",
+    "label": "793 - AKÇAT-KARAPINAR-KARAMÜRSEL TERMİNAL",
+    "value": "793 - AKÇAT-KARAPINAR-KARAMÜRSEL TERMİNAL",
+    "route_code": "793"
+  },
+  {
+    "id": "KM33",
+    "label": "KM33 - İSHAKÇILAR-DERİNCE",
+    "value": "KM33 - İSHAKÇILAR-DERİNCE",
+    "route_code": "KM33"
+  },
+  {
+    "id": "KM34",
+    "label": "KM34 - TURGUTLAR-TAHTALI-İZMİT",
+    "value": "KM34 - TURGUTLAR-TAHTALI-İZMİT",
+    "route_code": "KM34"
+  },
+  {
+    "id": "KM35",
+    "label": "KM35 - OSMANLI-KUTLUCA-SEVİNDİKLİ-SİPAHİLER-DEREKÖY-BELEN-KÖRFEZ",
+    "value": "KM35 - OSMANLI-KUTLUCA-SEVİNDİKLİ-SİPAHİLER-DEREKÖY-BELEN-KÖRFEZ",
+    "route_code": "KM35"
+  },
+  {
+    "id": "KM36",
+    "label": "KM36 - ŞEMSEDDİN-NAİPKÖY-ELMACIK-KALBURCU-KÖRFEZ",
+    "value": "KM36 - ŞEMSEDDİN-NAİPKÖY-ELMACIK-KALBURCU-KÖRFEZ",
+    "route_code": "KM36"
+  },
+  {
+    "id": "KM37",
+    "label": "KM37 - DİKENLİ-A.HOCALAR-CUMA-ÇIRAKLI-SİPAHİLER-DEREKÖY-BELEN-KÖRFEZ",
+    "value": "KM37 - DİKENLİ-A.HOCALAR-CUMA-ÇIRAKLI-SİPAHİLER-DEREKÖY-BELEN-KÖRFEZ",
+    "route_code": "KM37"
+  },
+  {
+    "id": "KM39",
+    "label": "KM39 - YENİCE-ÇAVUŞOĞLU-AMBARCI-GÜVERCİNLİK-İZMİT",
+    "value": "KM39 - YENİCE-ÇAVUŞOĞLU-AMBARCI-GÜVERCİNLİK-İZMİT",
+    "route_code": "KM39"
+  },
+  {
+    "id": "KM53",
+    "label": "KM53 - NÜZHETİYE- PANAYIR-GÖLCÜK",
+    "value": "KM53 - NÜZHETİYE- PANAYIR-GÖLCÜK",
+    "route_code": "KM53"
+  },
+  {
+    "id": "KM63",
+    "label": "KM63 - TEPECİK-TOKİ-KÖSELER-DEMİRCİLER-DİLOVASI DH-TAVŞANC",
+    "value": "KM63 - TEPECİK-TOKİ-KÖSELER-DEMİRCİLER-DİLOVASI DH-TAVŞANC",
+    "route_code": "KM63"
+  },
+  {
+    "id": "434",
+    "label": "434 - TATLIKUYU KAPALI PAZAR ALANI-PELİTLİ",
+    "value": "434 - TATLIKUYU KAPALI PAZAR ALANI-PELİTLİ",
+    "route_code": "434"
+  },
+  {
+    "id": "34",
+    "label": "34 - ÖZBEK ÇEŞM-BOĞAZOVA-ŞEHİR HAST-B.DERE-SANAYİ-GÜNEY TERM",
+    "value": "34 - ÖZBEK ÇEŞM-BOĞAZOVA-ŞEHİR HAST-B.DERE-SANAYİ-GÜNEY TERM",
+    "route_code": "34"
+  },
+  {
+    "id": "KM38",
+    "label": "KM38 - AKMEŞE-KİRAZOĞLU-İZMİT",
+    "value": "KM38 - AKMEŞE-KİRAZOĞLU-İZMİT",
+    "route_code": "KM38"
+  },
+  {
+    "id": "435MR",
+    "label": "435MR - ÇAYIROVA TREN İSTASYONU-İZMİT OTOGAR",
+    "value": "435MR - ÇAYIROVA TREN İSTASYONU-İZMİT OTOGAR",
+    "route_code": "435MR"
+  },
+  {
+    "id": "435KS",
+    "label": "435KS - GEBZE CENTER-KOCAELİ STADYUMU",
+    "value": "435KS - GEBZE CENTER-KOCAELİ STADYUMU",
+    "route_code": "435KS"
+  },
+  {
+    "id": "G3",
+    "label": "G3 - GEBZE MARMARAY TREN İSTASYONU-GEBZE MERKEZ",
+    "value": "G3 - GEBZE MARMARAY TREN İSTASYONU-GEBZE MERKEZ",
+    "route_code": "G3"
+  },
+  {
+    "id": "T3",
+    "label": "T3 - KOCAELİ STADYUMU-OTOGAR-KURUÇEŞME",
+    "value": "T3 - KOCAELİ STADYUMU-OTOGAR-KURUÇEŞME",
+    "route_code": "T3"
+  },
+  {
+    "id": "TF3",
+    "label": "TF3 - KARAMÜRSEL-GÖLCÜK-BAŞİSKELE-ORMANYA-TELEFERİK",
+    "value": "TF3 - KARAMÜRSEL-GÖLCÜK-BAŞİSKELE-ORMANYA-TELEFERİK",
+    "route_code": "TF3"
+  },
+  {
+    "id": "N3",
+    "label": "N3 - KARAMÜRSEL-D.DERE-GÖLCÜK-BAŞİSKELE-İZMİT",
+    "value": "N3 - KARAMÜRSEL-D.DERE-GÖLCÜK-BAŞİSKELE-İZMİT",
+    "route_code": "N3"
+  },
+  {
+    "id": "535",
+    "label": "535 - SIRASÖĞÜTLER - DARICA-ÇAYIROVA - BALÇIK MEZARLIK",
+    "value": "535 - SIRASÖĞÜTLER - DARICA-ÇAYIROVA - BALÇIK MEZARLIK",
+    "route_code": "535"
+  },
+  {
+    "id": "44",
+    "label": "44 - GÜNEY TERMİNALİ-CUMHURİYET PARKI-BAĞÇEŞME",
+    "value": "44 - GÜNEY TERMİNALİ-CUMHURİYET PARKI-BAĞÇEŞME",
+    "route_code": "44"
+  },
+  {
+    "id": "94",
+    "label": "94 - F.SULTAN-ÇINARLIKENT-MERSİNCİK-K.ÇEŞME-EREN CAMİ-SANAYİ",
+    "value": "94 - F.SULTAN-ÇINARLIKENT-MERSİNCİK-K.ÇEŞME-EREN CAMİ-SANAYİ",
+    "route_code": "94"
+  },
+  {
+    "id": "499",
+    "label": "499 - TAVŞANLI - GEBZE-FATİH D.H. - TATLIKUYU PAZAR",
+    "value": "499 - TAVŞANLI - GEBZE-FATİH D.H. - TATLIKUYU PAZAR",
+    "route_code": "499"
+  },
+  {
+    "id": "644",
+    "label": "644 - KARŞIYAKA-KALICI KONUTLAR-İZMİT-BATI TERMİNALİ (YENİ YOL",
+    "value": "644 - KARŞIYAKA-KALICI KONUTLAR-İZMİT-BATI TERMİNALİ (YENİ YOL",
+    "route_code": "644"
+  },
+  {
+    "id": "645",
+    "label": "645 - ALTINKENT-DÖNGEL-İZMİT-UMUTTEPE",
+    "value": "645 - ALTINKENT-DÖNGEL-İZMİT-UMUTTEPE",
+    "route_code": "645"
+  },
+  {
+    "id": "764",
+    "label": "764 - KARAMÜRSEL TERMİNAL-TEPEKÖY",
+    "value": "764 - KARAMÜRSEL TERMİNAL-TEPEKÖY",
+    "route_code": "764"
+  },
+  {
+    "id": "794",
+    "label": "794 - KARAPINAR-KARAMÜRSEL TERMİNAL",
+    "value": "794 - KARAPINAR-KARAMÜRSEL TERMİNAL",
+    "route_code": "794"
+  },
+  {
+    "id": "498",
+    "label": "498 - MUALLİMKÖY - OTOGAR-TÜBİTAK - GEBZE",
+    "value": "498 - MUALLİMKÖY - OTOGAR-TÜBİTAK - GEBZE",
+    "route_code": "498"
+  },
+  {
+    "id": "KM44",
+    "label": "KM44 - MECİDİYE-GÜLBAHÇE-KISALAR-İZMİT",
+    "value": "KM44 - MECİDİYE-GÜLBAHÇE-KISALAR-İZMİT",
+    "route_code": "KM44"
+  },
+  {
+    "id": "KM45",
+    "label": "KM45 - ARPALIK İHSANİYE-ORHANİYE-KULOĞLU-İZMİT",
+    "value": "KM45 - ARPALIK İHSANİYE-ORHANİYE-KULOĞLU-İZMİT",
+    "route_code": "KM45"
+  },
+  {
+    "id": "KM46",
+    "label": "KM46 - KABAKÇI-GEDİKLİ-CİVCİVOĞLU-T.KÖY-MANCARCI-BAYRAKTAR-İZMİT",
+    "value": "KM46 - KABAKÇI-GEDİKLİ-CİVCİVOĞLU-T.KÖY-MANCARCI-BAYRAKTAR-İZMİT",
+    "route_code": "KM46"
+  },
+  {
+    "id": "KM47",
+    "label": "KM47 - MANCARCI-ZEYTİNBURNU-GEDİKLİ-BAYRAKTAR-İZMİT",
+    "value": "KM47 - MANCARCI-ZEYTİNBURNU-GEDİKLİ-BAYRAKTAR-İZMİT",
+    "route_code": "KM47"
+  },
+  {
+    "id": "KM48",
+    "label": "KM48 - NASUHLAR-TERZİLER-BULDUK-ÇAĞIRGAN-KAYNARCA-İZMİT",
+    "value": "KM48 - NASUHLAR-TERZİLER-BULDUK-ÇAĞIRGAN-KAYNARCA-İZMİT",
+    "route_code": "KM48"
+  },
+  {
+    "id": "KM49",
+    "label": "KM49 - GIRGIRLAR-ŞAHİNLER-SARIŞEYH-GÖKÇELER-NEBİHOCALAR-İZMİT",
+    "value": "KM49 - GIRGIRLAR-ŞAHİNLER-SARIŞEYH-GÖKÇELER-NEBİHOCALAR-İZMİT",
+    "route_code": "KM49"
+  },
+  {
+    "id": "KM54",
+    "label": "KM54 - AYVAZPINARI-MESRURİYE-ŞEVKETİYE-İCADİYE- GÖLCÜK",
+    "value": "KM54 - AYVAZPINARI-MESRURİYE-ŞEVKETİYE-İCADİYE- GÖLCÜK",
+    "route_code": "KM54"
+  },
+  {
+    "id": "54",
+    "label": "54 - BAĞÇEŞME-CUMHURIYET PARKI-EREN CAMİ-GÜNEY TERMİNALİ",
+    "value": "54 - BAĞÇEŞME-CUMHURIYET PARKI-EREN CAMİ-GÜNEY TERMİNALİ",
+    "route_code": "54"
+  },
+  {
+    "id": "KM64",
+    "label": "KM64 - DİLİSKELESİ-DİLOVASI-ÇERKEŞLİ-İMES-KÖSELER-MERMERCİLER OSB",
+    "value": "KM64 - DİLİSKELESİ-DİLOVASI-ÇERKEŞLİ-İMES-KÖSELER-MERMERCİLER OSB",
+    "route_code": "KM64"
+  },
+  {
+    "id": "74",
+    "label": "74 - RADAR-HALKEVİ -M.İRADE MEYDANI-GÜNEY TERMİNALİ",
+    "value": "74 - RADAR-HALKEVİ -M.İRADE MEYDANI-GÜNEY TERMİNALİ",
+    "route_code": "74"
+  },
+  {
+    "id": "KM84",
+    "label": "KM84 - KANDIRA-KURTYERİ-KEFKEN-CEBECİ-BABALI-DİKİLİ",
+    "value": "KM84 - KANDIRA-KURTYERİ-KEFKEN-CEBECİ-BABALI-DİKİLİ",
+    "route_code": "KM84"
+  },
+  {
+    "id": "45",
+    "label": "45 - İZMİT VADİ EVLERİ-GÜLTEPE-HÜR SOKAK-BATI TERMİNALİ",
+    "value": "45 - İZMİT VADİ EVLERİ-GÜLTEPE-HÜR SOKAK-BATI TERMİNALİ",
+    "route_code": "45"
+  },
+  {
+    "id": "45H",
+    "label": "45H - BEYHAN-HÜR SOKAK-HUZUR EVİ-BATI TERMİNALİ",
+    "value": "45H - BEYHAN-HÜR SOKAK-HUZUR EVİ-BATI TERMİNALİ",
+    "route_code": "45H"
+  },
+  {
+    "id": "TF4",
+    "label": "TF4 - ÇAYIROVA-GEBZE-DİLOVASI-ORMANYA-SEKA KAMPI-TELEFERİK",
+    "value": "TF4 - ÇAYIROVA-GEBZE-DİLOVASI-ORMANYA-SEKA KAMPI-TELEFERİK",
+    "route_code": "TF4"
+  },
+  {
+    "id": "59",
+    "label": "59 - TÜYSÜZLER-TREN GARI-EMNİYET-CUMHURİYET PARKI",
+    "value": "59 - TÜYSÜZLER-TREN GARI-EMNİYET-CUMHURİYET PARKI",
+    "route_code": "59"
+  },
+  {
+    "id": "65",
+    "label": "65 - BATI TERMİNALİ-BİLİM MERKEZİ-ORDU EVİ-ORKİDE SOKAK-SEKA DH.",
+    "value": "65 - BATI TERMİNALİ-BİLİM MERKEZİ-ORDU EVİ-ORKİDE SOKAK-SEKA DH.",
+    "route_code": "65"
+  },
+  {
+    "id": "85",
+    "label": "85 - AKPINAR TOKİ-KURUÇEŞME-BAÇ-DOGU KIŞLA-D.BANKASI-UMUTTEPE",
+    "value": "85 - AKPINAR TOKİ-KURUÇEŞME-BAÇ-DOGU KIŞLA-D.BANKASI-UMUTTEPE",
+    "route_code": "85"
+  },
+  {
+    "id": "557",
+    "label": "557 - SGK MD.LÜĞÜ-ÇAĞDAŞKENT-ÇİÇEKÇİLER-GEBZE-M.PAŞA",
+    "value": "557 - SGK MD.LÜĞÜ-ÇAĞDAŞKENT-ÇİÇEKÇİLER-GEBZE-M.PAŞA",
+    "route_code": "557"
+  },
+  {
+    "id": "558",
+    "label": "558 - GTÜ-ÇİÇEKÇİLER-ÇAĞDAŞKENT-M.PAŞA CAMİ-FATİH DEVLET HAST.",
+    "value": "558 - GTÜ-ÇİÇEKÇİLER-ÇAĞDAŞKENT-M.PAŞA CAMİ-FATİH DEVLET HAST.",
+    "route_code": "558"
+  },
+  {
+    "id": "559",
+    "label": "559 - FATİH TREN İSTASYONU-BELEDİYE-KAYMAKAMLIK-Ş.PINAR",
+    "value": "559 - FATİH TREN İSTASYONU-BELEDİYE-KAYMAKAMLIK-Ş.PINAR",
+    "route_code": "559"
+  },
+  {
+    "id": "565",
+    "label": "565 - KBB GEBZE GARAJ-Ç.KENT-YENİ MH-ANİBAL-TÜBİTAK-BARIŞ MAH.",
+    "value": "565 - KBB GEBZE GARAJ-Ç.KENT-YENİ MH-ANİBAL-TÜBİTAK-BARIŞ MAH.",
+    "route_code": "565"
+  },
+  {
+    "id": "656",
+    "label": "656 - KİRAZLIKENT-YENİKÖY-ATAKENT-GÖLCÜK-KERİM AĞA",
+    "value": "656 - KİRAZLIKENT-YENİKÖY-ATAKENT-GÖLCÜK-KERİM AĞA",
+    "route_code": "656"
+  },
+  {
+    "id": "695",
+    "label": "695 - HİSAREYN-ESENTEPE-YAZLIK-İZMİT-PLAJYOLU DEPO (ESKİ YOL)",
+    "value": "695 - HİSAREYN-ESENTEPE-YAZLIK-İZMİT-PLAJYOLU DEPO (ESKİ YOL)",
+    "route_code": "695"
+  },
+  {
+    "id": "755",
+    "label": "755 - KARAMÜRSEL-İZMİT OTOGAR-UMUTTEPE (YENİ YOL)",
+    "value": "755 - KARAMÜRSEL-İZMİT OTOGAR-UMUTTEPE (YENİ YOL)",
+    "route_code": "755"
+  },
+  {
+    "id": "55",
+    "label": "55 - BEYHAN-GÜLTEPE-HALKEVİ-CUMHURİYET PARKI",
+    "value": "55 - BEYHAN-GÜLTEPE-HALKEVİ-CUMHURİYET PARKI",
+    "route_code": "55"
+  },
+  {
+    "id": "KM55",
+    "label": "KM55 - SENAİYE-SOFULAR-LÜTFİYE-SELİMİYE-GÖLCÜK",
+    "value": "KM55 - SENAİYE-SOFULAR-LÜTFİYE-SELİMİYE-GÖLCÜK",
+    "route_code": "KM55"
+  },
+  {
+    "id": "KM56",
+    "label": "KM56 - HAMİDİYE-GÖLCÜK",
+    "value": "KM56 - HAMİDİYE-GÖLCÜK",
+    "route_code": "KM56"
+  },
+  {
+    "id": "KM57",
+    "label": "KM57 - ERİKLİTEPE-İRŞADİYE-GÖLCÜK",
+    "value": "KM57 - ERİKLİTEPE-İRŞADİYE-GÖLCÜK",
+    "route_code": "KM57"
+  },
+  {
+    "id": "KM58",
+    "label": "KM58 - MUDARLI-TATLIKUYU KAPALI PAZAR ALANI",
+    "value": "KM58 - MUDARLI-TATLIKUYU KAPALI PAZAR ALANI",
+    "route_code": "KM58"
+  },
+  {
+    "id": "KM59",
+    "label": "KM59 - TEPEMANAYIR-AHATLI-KARGALI-GEBZE-FATİH D.H.-TATLIKUYU",
+    "value": "KM59 - TEPEMANAYIR-AHATLI-KARGALI-GEBZE-FATİH D.H.-TATLIKUYU",
+    "route_code": "KM59"
+  },
+  {
+    "id": "KM65",
+    "label": "KM65 - BATI TERMİNALİ-İZMİT-ÇUBUKLU BALA-ÇERİBAŞILAR",
+    "value": "KM65 - BATI TERMİNALİ-İZMİT-ÇUBUKLU BALA-ÇERİBAŞILAR",
+    "route_code": "KM65"
+  },
+  {
+    "id": "SH5",
+    "label": "SH5 - BATI TERMİNALİ-GÜLTEPE-TÜYSÜZLER-ŞEHİR HASTANESİ",
+    "value": "SH5 - BATI TERMİNALİ-GÜLTEPE-TÜYSÜZLER-ŞEHİR HASTANESİ",
+    "route_code": "SH5"
+  },
+  {
+    "id": "66",
+    "label": "66 - BATI TERMİNALİ-DOĞUKIŞLA-YEŞİLOVA-SEPETÇİ",
+    "value": "66 - BATI TERMİNALİ-DOĞUKIŞLA-YEŞİLOVA-SEPETÇİ",
+    "route_code": "66"
+  },
+  {
+    "id": "676",
+    "label": "676 - HİSAREYN TAŞOCAKLARI-KARAKÖPRÜ-SANAYİ-GÖLCÜK-KERİM AĞA",
+    "value": "676 - HİSAREYN TAŞOCAKLARI-KARAKÖPRÜ-SANAYİ-GÖLCÜK-KERİM AĞA",
+    "route_code": "676"
+  },
+  {
+    "id": "677",
+    "label": "677 - HİSAREYN-ESENTEPE-KARAKÖPRÜ-Y.SANAYİ-GÖLCÜK-KERİM AĞA",
+    "value": "677 - HİSAREYN-ESENTEPE-KARAKÖPRÜ-Y.SANAYİ-GÖLCÜK-KERİM AĞA",
+    "route_code": "677"
+  },
+  {
+    "id": "678",
+    "label": "678 - HİSAREYN-KARAKÖPRÜ-Y.SANAYİ-GÖLCÜK-KERİM AĞA",
+    "value": "678 - HİSAREYN-KARAKÖPRÜ-Y.SANAYİ-GÖLCÜK-KERİM AĞA",
+    "route_code": "678"
+  },
+  {
+    "id": "699",
+    "label": "699 - SYMBOL AVM-KULLAR-YUVACIK-KARŞIYAKA-BAHÇECİK-YENİKÖY",
+    "value": "699 - SYMBOL AVM-KULLAR-YUVACIK-KARŞIYAKA-BAHÇECİK-YENİKÖY",
+    "route_code": "699"
+  },
+  {
+    "id": "766",
+    "label": "766 - KARAMÜRSEL TERMİNAL-OLUKLU",
+    "value": "766 - KARAMÜRSEL TERMİNAL-OLUKLU",
+    "route_code": "766"
+  },
+  {
+    "id": "796",
+    "label": "796 - EREĞLİ-ALTINKEMER PLAJ-SAHİL-KARAMÜRSEL DEVLET HAST.",
+    "value": "796 - EREĞLİ-ALTINKEMER PLAJ-SAHİL-KARAMÜRSEL DEVLET HAST.",
+    "route_code": "796"
+  },
+  {
+    "id": "698",
+    "label": "698 - İZMİT OTOGAR-Y.KAPTAN-KULLAR-KAYMAKALIK-OKULLAR B.-YENİKÖY",
+    "value": "698 - İZMİT OTOGAR-Y.KAPTAN-KULLAR-KAYMAKALIK-OKULLAR B.-YENİKÖY",
+    "route_code": "698"
+  },
+  {
+    "id": "86",
+    "label": "86 - BATI TERMİNALİ-TREN GARI-DOĞUKIŞLA-YEŞİLOVA-ÇAYIRKÖY",
+    "value": "86 - BATI TERMİNALİ-TREN GARI-DOĞUKIŞLA-YEŞİLOVA-ÇAYIRKÖY",
+    "route_code": "86"
+  },
+  {
+    "id": "KM68",
+    "label": "KM68 - ESELER-İZMİT",
+    "value": "KM68 - ESELER-İZMİT",
+    "route_code": "KM68"
+  },
+  {
+    "id": "69",
+    "label": "69 - BATI TERMİNALİ-KABAOĞLU-SEKBANLI",
+    "value": "69 - BATI TERMİNALİ-KABAOĞLU-SEKBANLI",
+    "route_code": "69"
+  },
+  {
+    "id": "KM67",
+    "label": "KM67 - PLAJYOLU DEPOLAMA-İZMİT-MANDIRA-ÇUBUKLU OSMANİYE",
+    "value": "KM67 - PLAJYOLU DEPOLAMA-İZMİT-MANDIRA-ÇUBUKLU OSMANİYE",
+    "route_code": "KM67"
+  },
+  {
+    "id": "SH6",
+    "label": "SH6 - BAĞÇEŞME-ERENLER-İZMİTKENT-ŞEHİR HASTANESİ-YEŞİLOVA",
+    "value": "SH6 - BAĞÇEŞME-ERENLER-İZMİTKENT-ŞEHİR HASTANESİ-YEŞİLOVA",
+    "route_code": "SH6"
+  },
+  {
+    "id": "67",
+    "label": "67 - BATI TERMİNALİ-SEKA PARK-DOĞU KIŞLA-ÜÇ TEPELER-SEKBANLI",
+    "value": "67 - BATI TERMİNALİ-SEKA PARK-DOĞU KIŞLA-ÜÇ TEPELER-SEKBANLI",
+    "route_code": "67"
+  },
+  {
+    "id": "KM66",
+    "label": "KM66 - OTOGAR-YEŞİLOVA-ÇAYIRKÖY-MURATKÖY-TEKKEKÖY-YASSIBAĞ",
+    "value": "KM66 - OTOGAR-YEŞİLOVA-ÇAYIRKÖY-MURATKÖY-TEKKEKÖY-YASSIBAĞ",
+    "route_code": "KM66"
+  },
+  {
+    "id": "797",
+    "label": "797 - TAHTALI-FULACIK-HAYRİYE-K.AHMETLİ-OLUKLU-K.MÜRSEL TERM",
+    "value": "797 - TAHTALI-FULACIK-HAYRİYE-K.AHMETLİ-OLUKLU-K.MÜRSEL TERM",
+    "route_code": "797"
+  },
+  {
+    "id": "KM77",
+    "label": "KM77 - KARAMÜRSEL TERMİNAL-KARAMÜRSEL TERMİNAL",
+    "value": "KM77 - KARAMÜRSEL TERMİNAL-KARAMÜRSEL TERMİNAL",
+    "route_code": "KM77"
+  },
+  {
+    "id": "SH7",
+    "label": "SH7 - OTOGAR-ŞEHİR HASTANESİ",
+    "value": "SH7 - OTOGAR-ŞEHİR HASTANESİ",
+    "route_code": "SH7"
+  },
+  {
+    "id": "88",
+    "label": "88 - DÜNYA BANKASI-TREN GARI",
+    "value": "88 - DÜNYA BANKASI-TREN GARI",
+    "route_code": "88"
+  },
+  {
+    "id": "89",
+    "label": "89 - AKPINAR TOKİ-KURUÇEŞME-HALKEVİ-CUMHURİYET PARKI",
+    "value": "89 - AKPINAR TOKİ-KURUÇEŞME-HALKEVİ-CUMHURİYET PARKI",
+    "route_code": "89"
+  },
+  {
+    "id": "SH8",
+    "label": "SH8 - KÖRFEZKENT-DERİNCE-ÜÇYOL-ŞEHİR HASTANESİ",
+    "value": "SH8 - KÖRFEZKENT-DERİNCE-ÜÇYOL-ŞEHİR HASTANESİ",
+    "route_code": "SH8"
+  },
+  {
+    "id": "SH9",
+    "label": "SH9 - KARAMÜRSEL-DEĞİRMENDERE-GÖLCÜK-ŞEHİR HASTANESİ",
+    "value": "SH9 - KARAMÜRSEL-DEĞİRMENDERE-GÖLCÜK-ŞEHİR HASTANESİ",
+    "route_code": "SH9"
+  }
+]
