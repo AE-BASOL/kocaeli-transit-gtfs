@@ -1,0 +1,24 @@
+# Data and logs
+pers_kocaeli/
+data/
+output/
+*.txt
+*.log
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+
+# Environment variables
+.env
+
+# MacOS
+.DS_Store
+
+# Internal AI & Agent files
+.planning/
+GEMINI.md
+.claude/
+
