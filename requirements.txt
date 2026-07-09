@@ -3,3 +3,4 @@ pytest
 python-dotenv
 pandas
 gtfs-realtime-bindings
+pytz

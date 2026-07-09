@@ -47,6 +47,12 @@ jobs:
           export PYTHONPATH=$PYTHONPATH:$(pwd)
           python src/rt_gtfs.py
 
+      - name: Generate Dashboard HTML
+        run: |
+          export PYTHONPATH=$PYTHONPATH:$(pwd)
+          pip install pytz
+          python src/generate_dashboard.py
+
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
