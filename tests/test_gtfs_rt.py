@@ -4,7 +4,14 @@ from src.rt_gtfs import generate_rt_gtfs
 
 def test_generate_rt_gtfs(tmp_path):
     output_dir = tmp_path / "data"
-    live_data = {"mock": "live_data"}
+    live_data = [
+        {
+            "route_code": "1",
+            "lat": 40.7654,
+            "lon": 29.9408,
+            "plate": "41 TEST 001",
+        }
+    ]
     
     pb_path = generate_rt_gtfs(live_data, output_dir=str(output_dir))
     

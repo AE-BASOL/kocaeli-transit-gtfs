@@ -4,7 +4,7 @@ from src.static_gtfs import generate_static_gtfs
 
 def test_generate_static_gtfs(tmp_path):
     output_dir = tmp_path / "data"
-    raw_data = {"mock": "data"}
+    raw_data = [{"route_code": "1", "label": "İzmit - Umuttepe"}]
     
     zip_path = generate_static_gtfs(raw_data, output_dir=str(output_dir))
     
