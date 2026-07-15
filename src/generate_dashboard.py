@@ -46,6 +46,7 @@ def generate_dashboard():
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kocaeli Transit GTFS Pipeline</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
     <style>
         :root {{
             --bg-color: #0f172a;
@@ -222,6 +223,16 @@ def generate_dashboard():
             100% {{ box-shadow: 0 0 0 0 rgba(34, 197, 94, 0); }}
         }}
 
+        #map {{
+            width: 100%;
+            height: 400px;
+            border-radius: 16px;
+            margin-bottom: 30px;
+            border: 1px solid var(--card-border);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.5);
+            z-index: 1;
+        }}
+
         /* Modal Styles */
         .modal-overlay {{
             display: none;
@@ -320,6 +331,8 @@ def generate_dashboard():
             </div>
         </div>
         
+        <div id="map"></div>
+        
         <div class="download-section">
             <a href="gtfs/vehicle_positions.pb" class="btn">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
@@ -350,9 +363,43 @@ def generate_dashboard():
         </div>
     </div>
 
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
     <script>
         const liveBuses = {buses_json_str};
         const allRoutes = {routes_json_str};
+
+        // Initialize Map
+        const map = L.map('map').setView([40.765, 29.940], 11); // Center on Kocaeli
+        L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {{
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
+            subdomains: 'abcd',
+            maxZoom: 19
+        }}).addTo(map);
+
+        // Add Bus Markers
+        const markers = L.markerClusterGroup ? L.markerClusterGroup() : L.featureGroup().addTo(map);
+        
+        // Use default leaflet marker or custom circle
+        liveBuses.forEach(bus => {{
+            if (bus.lat && bus.lon) {{
+                const marker = L.circleMarker([parseFloat(bus.lat), parseFloat(bus.lon)], {{
+                    radius: 5,
+                    fillColor: "#3b82f6",
+                    color: "#ffffff",
+                    weight: 1,
+                    opacity: 1,
+                    fillOpacity: 0.8
+                }});
+                
+                const routeInfo = bus.route_code ? `<strong>Hat:</strong> ${{bus.route_code}}<br>` : '';
+                marker.bindPopup(`${{routeInfo}}<strong>Plaka:</strong> ${{bus.plate || 'Bilinmiyor'}}<br><strong>Hız:</strong> ${{bus.extra || '0'}} km/s`);
+                markers.addLayer(marker);
+            }}
+        }});
+        
+        if (markers.getBounds && markers.getLayers().length > 0) {{
+            map.fitBounds(markers.getBounds());
+        }}
 
         function openModal(type) {{
             const modal = document.getElementById('dataModal');
