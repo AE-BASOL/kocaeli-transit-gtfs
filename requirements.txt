@@ -4,3 +4,4 @@ python-dotenv
 pandas
 gtfs-realtime-bindings
 pytz
+beautifulsoup4
