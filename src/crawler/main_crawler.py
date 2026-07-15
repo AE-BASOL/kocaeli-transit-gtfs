@@ -12,8 +12,12 @@ PROCESSED_DIR = os.path.join(DATA_DIR, "processed")
 os.makedirs(RAW_DIR, exist_ok=True)
 os.makedirs(PROCESSED_DIR, exist_ok=True)
 
-def update_static_data():
+def update_static_data(force=False):
     """Fetches all routes, stops, and shapes (Runs occasionally, e.g., daily)"""
+    if not force and os.path.exists(os.path.join(RAW_DIR, "shapes.json")):
+        print(f"[{datetime.now()}] STATIC data already exists. Skipping.")
+        return
+
     print(f"[{datetime.now()}] Starting STATIC data update...")
     routes = get_all_routes()
     

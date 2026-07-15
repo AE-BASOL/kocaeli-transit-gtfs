@@ -32,6 +32,16 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
+      - name: Get current date
+        id: date
+        run: echo "date=$(date +'%Y-%m-%d')" >> $GITHUB_OUTPUT
+
+      - name: Cache Static Data
+        uses: actions/cache@v4
+        with:
+          path: data/raw
+          key: static-data-${{ steps.date.outputs.date }}
+
       - name: Run Crawler (Static & Live Data)
         run: |
           export PYTHONPATH=$PYTHONPATH:$(pwd)
