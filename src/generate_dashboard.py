@@ -382,9 +382,14 @@ def generate_dashboard():
         // Use default leaflet marker or custom circle
         liveBuses.forEach(bus => {{
             if (bus.lat && bus.lon) {{
+                let busColor = "#64748b";
+                if (bus.operator === 'Tram') busColor = "#ef4444";
+                else if (bus.operator === 'Municipality') busColor = "#22c55e";
+                else if (bus.operator === 'Private') busColor = "#3b82f6";
+                
                 const marker = L.circleMarker([parseFloat(bus.lat), parseFloat(bus.lon)], {{
                     radius: 5,
-                    fillColor: "#3b82f6",
+                    fillColor: busColor,
                     color: "#ffffff",
                     weight: 1,
                     opacity: 1,
@@ -392,7 +397,7 @@ def generate_dashboard():
                 }});
                 
                 const routeInfo = bus.route_code ? `<strong>Hat:</strong> ${{bus.route_code}}<br>` : '';
-                marker.bindPopup(`${{routeInfo}}<strong>Plaka:</strong> ${{bus.plate || 'Bilinmiyor'}}<br><strong>Hız:</strong> ${{bus.extra || '0'}} km/s`);
+                marker.bindPopup(`${{routeInfo}}<strong>Operatör:</strong> ${{bus.operator || 'Bilinmiyor'}}<br><strong>Tip:</strong> ${{bus.vehicle_type || 'Bilinmiyor'}}<br><strong>Plaka:</strong> ${{bus.plate || 'Bilinmiyor'}}<br><strong>Hız:</strong> ${{bus.extra || '0'}} km/s`);
                 markers.addLayer(marker);
             }}
         }});
@@ -412,21 +417,20 @@ def generate_dashboard():
             
             if (type === 'bus') {{
                 title.innerText = 'Aktif Otobüsler (Canlı)';
-                html += `<thead><tr><th>Hat Kodu</th><th>Plaka</th><th>Hız (km/h)</th></tr></thead><tbody>`;
+                html += `<thead><tr><th>Hat Kodu</th><th>Operatör</th><th>Tip</th><th>Plaka</th><th>Hız (km/h)</th></tr></thead><tbody>`;
                 liveBuses.forEach(bus => {{
+                    const safePlate = String(bus.plate || '-').replace(/</g, "&lt;").replace(/>/g, "&gt;");
                     html += `<tr>
                         <td><strong>${{bus.route_code || '-'}}</strong></td>
-                        <td>${{bus.plate || '-'}}</td>
+                        <td>${{bus.operator || '-'}}</td>
+                        <td>${{bus.vehicle_type || '-'}}</td>
+                        <td>${{safePlate}}</td>
                         <td>${{bus.extra || '0'}}</td>
                     </tr>`;
                 }});
             }} else if (type === 'route') {{
                 title.innerText = 'Kayıtlı Hatlar';
                 html += `<thead><tr><th>Hat Kodu</th><th>Hat Adı</th></tr></thead><tbody>`;
-                allRoutes.forEach(route => {{
-                    html += `<tr>
-                        <td><strong>${{route.route_code || '-'}}</strong></td>
-                        <td>${{route.route_name || '-'}}</td>
                     </tr>`;
                 }});
             }}

@@ -4,6 +4,7 @@ import time
 from datetime import datetime
 from ekomobil import get_all_routes, get_route_stops, get_route_shape, get_live_buses
 from web_scraper import scrape_akcaray_schedule, scrape_ferry_schedule
+from classifier import classify_vehicle
 
 DATA_DIR = "data"
 RAW_DIR = os.path.join(DATA_DIR, "raw")
@@ -82,7 +83,7 @@ def update_live_data():
         results = executor.map(fetch_route, routes)
         for res in results:
             if res:
-                all_live_buses.extend(res)
+                all_live_buses.extend([classify_vehicle(bus) for bus in res])
         
     with open(os.path.join(PROCESSED_DIR, "live_buses.json"), "w", encoding="utf-8") as f:
         json.dump(all_live_buses, f, ensure_ascii=False, indent=2)
