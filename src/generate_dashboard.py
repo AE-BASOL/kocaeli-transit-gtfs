@@ -9,7 +9,7 @@ def generate_dashboard():
     os.makedirs(output_dir, exist_ok=True)
     
     # Load live buses
-    buses_file = "pers_kocaeli/live_buses.json"
+    buses_file = "data/processed/live_buses.json"
     active_buses = 0
     buses_json_str = "[]"
     if os.path.exists(buses_file):
@@ -22,7 +22,7 @@ def generate_dashboard():
             pass
 
     # Load routes
-    routes_file = "pers_kocaeli/routes.json"
+    routes_file = "data/raw/routes.json"
     total_routes = 0
     routes_json_str = "[]"
     if os.path.exists(routes_file):
@@ -321,11 +321,11 @@ def generate_dashboard():
         </div>
         
         <div class="download-section">
-            <a href="gtfs-rt.pb" class="btn">
+            <a href="gtfs/vehicle_positions.pb" class="btn">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
                 Canlı Veri İndir (RT)
             </a>
-            <a href="gtfs.zip" class="btn btn-secondary">
+            <a href="gtfs/gtfs.zip" class="btn btn-secondary">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
                 Statik Veri İndir (ZIP)
             </a>

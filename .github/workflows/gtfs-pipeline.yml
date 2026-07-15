@@ -32,20 +32,17 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Run Extraction (Ekomobil Live)
+      - name: Run Crawler (Static & Live Data)
         run: |
           export PYTHONPATH=$PYTHONPATH:$(pwd)
-          python scripts/fetch_all_kocaeli.py
+          python src/crawler/main_crawler.py --static
+          python src/crawler/main_crawler.py --live
 
-      - name: Run Transformation (Static)
+      - name: Generate GTFS
         run: |
           export PYTHONPATH=$PYTHONPATH:$(pwd)
-          python src/static_gtfs.py
-
-      - name: Run Transformation (RT)
-        run: |
-          export PYTHONPATH=$PYTHONPATH:$(pwd)
-          python src/rt_gtfs.py
+          python src/gtfs/builder.py
+          python src/gtfs/rt_builder.py
 
       - name: Generate Dashboard HTML
         run: |
