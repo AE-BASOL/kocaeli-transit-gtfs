@@ -233,6 +233,32 @@ def generate_dashboard():
             z-index: 1;
         }}
 
+        .legend {{
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid var(--card-border);
+            border-radius: 12px;
+            padding: 15px;
+            margin-bottom: 20px;
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }}
+        
+        .legend-item {{
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 0.9rem;
+            color: #94a3b8;
+        }}
+        
+        .legend-color {{
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+        }}
+
         /* Modal Styles */
         .modal-overlay {{
             display: none;
@@ -331,6 +357,12 @@ def generate_dashboard():
             </div>
         </div>
         
+        <div class="legend">
+            <div class="legend-item"><div class="legend-color" style="background: #ef4444;"></div>Tramvay</div>
+            <div class="legend-item"><div class="legend-color" style="background: #22c55e;"></div>Belediye</div>
+            <div class="legend-item"><div class="legend-color" style="background: #3b82f6;"></div>Özel Halk</div>
+            <div class="legend-item"><div class="legend-color" style="background: #64748b;"></div>Bilinmiyor</div>
+        </div>
         <div id="map"></div>
         
         <div class="download-section">
