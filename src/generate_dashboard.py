@@ -406,26 +406,72 @@ def generate_dashboard():
         const liveBuses = {buses_json_str};
         const allRoutes = {routes_json_str};
 
+        // Initialize state from localStorage or defaults
+        let activeFilters = [];
+        try {{
+            const storedFilters = localStorage.getItem('kocaeliTransitFilters');
+            if (storedFilters) {{
+                activeFilters = JSON.parse(storedFilters);
+            }} else {{
+                activeFilters = ['Tram', 'Municipality', 'Private', 'Unknown'];
+                localStorage.setItem('kocaeliTransitFilters', JSON.stringify(activeFilters));
+            }}
+        }} catch(e) {{
+            activeFilters = ['Tram', 'Municipality', 'Private', 'Unknown'];
+        }}
+
+        let mapState = null;
+        try {{
+            const storedMapState = localStorage.getItem('kocaeliMapState');
+            if (storedMapState) {{
+                mapState = JSON.parse(storedMapState);
+            }}
+        }} catch (e) {{}}
+
         // Initialize Map
-        const map = L.map('map').setView([40.765, 29.940], 11); // Center on Kocaeli
+        const initialCenter = mapState ? [mapState.lat, mapState.lng] : [40.765, 29.940];
+        const initialZoom = mapState ? mapState.zoom : 11;
+        const map = L.map('map').setView(initialCenter, initialZoom);
+        
         L.tileLayer('https://{{s}}.basemaps.cartocdn.com/dark_all/{{z}}/{{x}}/{{y}}{{r}}.png', {{
             attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
             subdomains: 'abcd',
             maxZoom: 19
         }}).addTo(map);
 
-        // Add Bus Markers
-        const markers = L.markerClusterGroup ? L.markerClusterGroup() : L.featureGroup().addTo(map);
+        // Add map event listeners for state persistence
+        const saveMapState = () => {{
+            const center = map.getCenter();
+            const state = {{ lat: center.lat, lng: center.lng, zoom: map.getZoom() }};
+            localStorage.setItem('kocaeliMapState', JSON.stringify(state));
+        }};
+        map.on('moveend', saveMapState);
+        map.on('zoomend', saveMapState);
+
+        // Create Operator Layer Groups
+        const operatorLayers = {{
+            'Tram': L.featureGroup().addTo(map),
+            'Municipality': L.featureGroup().addTo(map),
+            'Private': L.featureGroup().addTo(map),
+            'Unknown': L.featureGroup().addTo(map)
+        }};
+        
+        // Ensure layer is removed if it's not in active filters initially
+        Object.keys(operatorLayers).forEach(operator => {{
+            if (!activeFilters.includes(operator)) {{
+                operatorLayers[operator].remove();
+            }}
+        }});
         
         const sanitizeHTML = (str) => String(str || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
         
-        // Use default leaflet marker or custom circle
         liveBuses.forEach(bus => {{
             if (bus.lat && bus.lon) {{
                 let busColor = "#64748b";
-                if (bus.operator === 'Tram') busColor = "#ef4444";
-                else if (bus.operator === 'Municipality') busColor = "#22c55e";
-                else if (bus.operator === 'Private') busColor = "#3b82f6";
+                let operatorGroup = 'Unknown';
+                if (bus.operator === 'Tram') {{ busColor = "#ef4444"; operatorGroup = 'Tram'; }}
+                else if (bus.operator === 'Municipality') {{ busColor = "#22c55e"; operatorGroup = 'Municipality'; }}
+                else if (bus.operator === 'Private') {{ busColor = "#3b82f6"; operatorGroup = 'Private'; }}
                 
                 const marker = L.circleMarker([parseFloat(bus.lat), parseFloat(bus.lon)], {{
                     radius: 5,
@@ -444,13 +490,50 @@ def generate_dashboard():
                 
                 const routeInfo = bus.route_code ? `<strong>Hat:</strong> ${{safeRoute}}<br>` : '';
                 marker.bindPopup(`${{routeInfo}}<strong>Operatör:</strong> ${{safeOperator}}<br><strong>Tip:</strong> ${{safeType}}<br><strong>Plaka:</strong> ${{safePlate}}<br><strong>Hız:</strong> ${{safeSpeed}} km/s`);
-                markers.addLayer(marker);
+                
+                if (operatorLayers[operatorGroup]) {{
+                    operatorLayers[operatorGroup].addLayer(marker);
+                }}
             }}
         }});
         
-        if (markers.getBounds && markers.getLayers().length > 0) {{
-            map.fitBounds(markers.getBounds());
+        // Compute bounds for all markers if mapState is not set
+        if (!mapState) {{
+            const bounds = L.latLngBounds([]);
+            Object.values(operatorLayers).forEach(layer => {{
+                if (layer.getBounds && Object.keys(layer._layers).length > 0) {{
+                    bounds.extend(layer.getBounds());
+                }}
+            }});
+            if (bounds.isValid()) {{
+                map.fitBounds(bounds);
+            }}
         }}
+
+        // Setup UI Legend interactions
+        document.querySelectorAll('.legend-item').forEach(item => {{
+            const operator = item.getAttribute('data-operator');
+            if (!activeFilters.includes(operator)) {{
+                item.classList.add('inactive');
+            }}
+            
+            item.addEventListener('click', () => {{
+                const op = item.getAttribute('data-operator');
+                const index = activeFilters.indexOf(op);
+                if (index > -1) {{
+                    // Remove filter
+                    activeFilters.splice(index, 1);
+                    item.classList.add('inactive');
+                    if (operatorLayers[op]) operatorLayers[op].remove();
+                }} else {{
+                    // Add filter
+                    activeFilters.push(op);
+                    item.classList.remove('inactive');
+                    if (operatorLayers[op]) operatorLayers[op].addTo(map);
+                }}
+                localStorage.setItem('kocaeliTransitFilters', JSON.stringify(activeFilters));
+            }});
+        }});
 
         function openModal(type) {{
             const modal = document.getElementById('dataModal');
